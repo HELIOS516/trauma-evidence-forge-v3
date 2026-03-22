@@ -1,0 +1,58 @@
+{
+  "profileName": "medical-grand-rounds-v1",
+  "themeId": "marine",
+  "defaults": {
+    "format": "presentation",
+    "textMode": "preserve",
+    "cardSplit": "auto",
+    "imageOptions": {
+      "source": "aiGenerated",
+      "model": "imagen-4-pro",
+      "style": "ultra-detailed photorealistic medical photography, surgical suite and trauma bay realism, 50mm lens depth, high dynamic range, anatomical accuracy, no illustrations or cartoons"
+    },
+    "textOptions": {
+      "amount": "detailed",
+      "language": "en"
+    },
+    "cardOptions": {
+      "dimensions": "16x9"
+    }
+  },
+  "constraints": {
+    "additionalInstructionsMaxChars": 2000
+  },
+  "safetyConstraints": [
+    "Preserve all superscript citation formatting (<sup>[N]</sup>).",
+    "Preserve all guideline and trial tables exactly as authored.",
+    "Do not drop Sources blocks on content slides.",
+    "Maintain clinical language for physician audience in preserve mode."
+  ],
+  "slideTypeDirectives": {
+    "Title": "Full-bleed hero image, centered white text overlay, presenter name and credentials prominent",
+    "Disclosures": "Clean minimal layout, dark navy background, white text only, no imagery",
+    "Learning Objectives": "Clean minimal layout, dark navy background, numbered list, no imagery",
+    "Case": "Split layout: clinical scene imagery left, structured case text right, urgent realistic tone",
+    "Content": "Clean professional layout, key message headline zone, bullet hierarchy, sources at bottom",
+    "Data/Table": "Data-first layout, bold stats as focal points, full-width tables dominate, high contrast",
+    "Trial": "Clinical trial summary layout, PICO framework or results table, key findings highlighted",
+    "Guideline": "Side-by-side or full-width comparison table, preserve guideline structure exactly",
+    "MCQ": "Quiz card layout, clear A-D option separation, highlight correct answer in green",
+    "Take-Home": "Large numbered list, bold key phrases, one concept per line, high-impact typography",
+    "References": "Small text 2-column layout, no images, clean numbered list, dense but readable",
+    "Q&A": "Professional closing slide, centered text, subtle medical background, contact info if present"
+  },
+  "typeImageStyles": {
+    "Title": "Dramatic cinematic wide-angle trauma bay or OR establishing shot; hero-scale composition; deep focal clarity; no text overlays",
+    "Disclosures": "NO_IMAGE — solid dark background only",
+    "Learning Objectives": "NO_IMAGE — solid dark background only",
+    "Case": "Photoreal emergency department or trauma bay scene; multidisciplinary team in action; realistic skin and equipment detail; 16:9; no illustrations",
+    "Content": "Photoreal clinical scene matching slide topic; OR / ICU / ward environment; shallow depth of field; anatomically accurate; no diagrams or icons",
+    "Data/Table": "NO_IMAGE — optional: subtle defocused clinical background, low contrast, no recognizable text",
+    "Trial": "NO_IMAGE — optional: subtle defocused clinical background, low contrast, no recognizable text",
+    "Guideline": "NO_IMAGE — optional: subtle defocused clinical background, low contrast, no recognizable text",
+    "MCQ": "NO_IMAGE — clean quiz card background only",
+    "Take-Home": "Clean clinical conference visual motif; synthesis and decision-support theme; minimal distractions; high contrast",
+    "References": "NO_IMAGE — plain academic background only",
+    "Q&A": "Professional medical conference closing scene; podium and subtle hospital context; warm inviting tone"
+  }
+}
