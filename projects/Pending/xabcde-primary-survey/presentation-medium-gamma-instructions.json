@@ -1,0 +1,222 @@
+{
+  "1": {
+    "title": "xABCDE: Hemorrhage Kills First, So Treat It First",
+    "instruction": "Full-bleed medical hero image, white title 48pt centered, presenter name 24pt below, no bullets",
+    "stylePoints": [
+      "Full-bleed visual with centered title hierarchy.",
+      "High-contrast text over controlled dark overlay.",
+      "Use premium conference-grade typography spacing."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: xABCDE: Hemorrhage Kills First, So Treat It First; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "2": {
+    "title": "Learning Objectives",
+    "instruction": "Solid dark bg, numbered list 24pt, no images, 3-4 items max",
+    "stylePoints": [
+      "Maintain high-contrast readability.",
+      "Use a clean professional medical conference aesthetic.",
+      "Preserve citation and source fidelity."
+    ],
+    "imageRequired": false,
+    "imagePrompt": "NO_IMAGE"
+  },
+  "3": {
+    "title": "22-Year-Old MVC: Unresponsive, Hypotensive, Tachycardic",
+    "instruction": "50/50 split, left clinical photo, right structured vitals as short bullets, urgent tone",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: 22-Year-Old MVC: Unresponsive, Hypotensive, Tachycardic; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "4": {
+    "title": "Exsanguination Is the Leading Cause of Preventable Trauma Death",
+    "instruction": "Dark bg, assertion title 28pt bold, 2-3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Exsanguination Is the Leading Cause of Preventable Trauma Death; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "5": {
+    "title": "Massive External Hemorrhage Control Precedes Airway Management",
+    "instruction": "Dark bg, assertion title 28pt bold, 2-3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Massive External Hemorrhage Control Precedes Airway Management; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "6": {
+    "title": "Airway Obstruction Remains the Number One Preventable Prehospital Death After Hemorrhage",
+    "instruction": "Dark bg, assertion title 28pt bold, 2-3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Airway Obstruction Remains the Number One Preventable Prehospital Death After Hemorrhage; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "7": {
+    "title": "GCS 8 or Less Is an Indication, Not an Absolute Mandate, for Intubation",
+    "instruction": "Dark bg, assertion title 28pt bold, 2-3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: GCS 8 or Less Is an Indication, Not an Absolute Mandate, for Intubation; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "8": {
+    "title": "Clinical Decision Point",
+    "instruction": "Question 24pt, options A-D clean list, no answer shown, interactive feel, blue accent",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Clinical Decision Point; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "9": {
+    "title": "Answer: B -- Control Hemorrhage First in the Exsanguinating Patient",
+    "instruction": "Dark bg, correct answer highlighted in accent, brief explanation with evidence",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Answer: B -- Control Hemorrhage First in the Exsanguinating Patient; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "10": {
+    "title": "Tension Pneumothorax Is a Clinical Diagnosis That Requires Immediate Decompression",
+    "instruction": "Dark bg, assertion title 28pt bold, 2-3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Tension Pneumothorax Is a Clinical Diagnosis That Requires Immediate Decompression; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "11": {
+    "title": "\"Blood on the Floor and Four More\" Localizes the Five Sources of Hemorrhage",
+    "instruction": "Dark bg, assertion title 28pt bold, 2-3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: \"Blood on the Floor and Four More\" Localizes the Five Sources of Hemorrhage; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "12": {
+    "title": "Class III-IV Shock Requires Massive Transfusion Protocol Before Lab Results Return",
+    "instruction": "Dark bg, assertion title 28pt bold, 2-3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Class III-IV Shock Requires Massive Transfusion Protocol Before Lab Results Return; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "13": {
+    "title": "Class III and IV Hemorrhagic Shock Demand Immediate Blood Product Resuscitation",
+    "instruction": "Table dominates 70%, key row highlighted accent, title = assertion, Bottom Line box",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Class III and IV Hemorrhagic Shock Demand Immediate Blood Product Resuscitation; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "14": {
+    "title": "FAST Answers One Question: Is There Free Fluid in the Unstable Patient?",
+    "instruction": "Dark bg, assertion title 28pt bold, 2-3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box",
+    "stylePoints": [
+      "Centered closing composition with clean negative space.",
+      "Subtle background only; do not overpower text.",
+      "Retain professional conference tone."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "professional medical conference closing scene with podium and subtle hospital context; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "15": {
+    "title": "Management Decision",
+    "instruction": "Question 24pt, options A-D clean list, no answer shown, interactive feel, blue accent",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Management Decision; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "16": {
+    "title": "Answer: B -- FAST Positive and Hemodynamically Unstable Means Emergent Laparotomy",
+    "instruction": "Dark bg, correct answer highlighted in accent, brief explanation with evidence",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Answer: B -- FAST Positive and Hemodynamically Unstable Means Emergent Laparotomy; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "17": {
+    "title": "GCS Components Plus Pupil Exam Constitute the Rapid Disability Assessment",
+    "instruction": "Dark bg, assertion title 28pt bold, 2-3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: GCS Components Plus Pupil Exam Constitute the Rapid Disability Assessment; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "18": {
+    "title": "Exposure and Hypothermia Prevention Must Begin in the Trauma Bay",
+    "instruction": "Dark bg, assertion title 28pt bold, 2-3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Exposure and Hypothermia Prevention Must Begin in the Trauma Bay; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "19": {
+    "title": "Five Pearls That Will Save Lives on Your Next Trauma Activation",
+    "instruction": "Large numbered list 28pt, bold key phrase per item, clean dark bg, 3-5 items max",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Five Pearls That Will Save Lives on Your Next Trauma Activation; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "20": {
+    "title": "References",
+    "instruction": "2-column small text 12pt, no images, dense but clean, dark bg",
+    "stylePoints": [
+      "Maintain high-contrast readability.",
+      "Use a clean professional medical conference aesthetic.",
+      "Preserve citation and source fidelity."
+    ],
+    "imageRequired": false,
+    "imagePrompt": "NO_IMAGE"
+  }
+}

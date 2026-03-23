@@ -73,7 +73,10 @@ Here is your patient. A 22-year-old male, unrestrained driver in a high-speed mo
 
 > **Bottom Line:** The X in xABCDE exists because hemorrhage kills fastest.
 
-**Sources:** [11][18]
+
+**Sources:**
+- [11] [Eastridge 2001](https://pubmed.ncbi.nlm.nih.gov/23192066/)
+- [18] American 2025
 
 <!-- Speaker Notes:
 The addition of X to the traditional ABCDE sequence is the most significant change to ATLS since its inception. ATLS 11th Edition, launched in July 2025, formally places eXsanguination control before Airway. Why? Because hemorrhage is the number one cause of preventable death in trauma. Eastridge and colleagues analyzed 4,596 deaths on the battlefield from 2001 to 2011 and found that 24.3 percent of pre-facility deaths were potentially survivable. Of those potentially survivable deaths, 90.9 percent were caused by hemorrhage: 67.3 percent from truncal sources, 19.2 percent from junctional hemorrhage, and 13.5 percent from extremity bleeding. In the civilian data, hemorrhage accounts for 30 to 40 percent of all trauma mortality, and a third to half of hemorrhage deaths occur before any intervention is possible. The military experience demonstrated that extremity tourniquets applied within 15 minutes had high efficacy with minimal complications, which directly drove civilian adoption of the hemorrhage-first paradigm. When a patient is bleeding to death, every second you spend on an airway that is already patent is a second of ongoing hemorrhage.
@@ -94,7 +97,10 @@ The addition of X to the traditional ABCDE sequence is the most significant chan
 
 > **Bottom Line:** In exsanguination, stop the bleeding before managing the airway.
 
-**Sources:** [11][18]
+
+**Sources:**
+- [11] [Eastridge 2001](https://pubmed.ncbi.nlm.nih.gov/23192066/)
+- [18] American 2025
 
 <!-- Speaker Notes:
 So what does the X step actually look like? Three interventions. First, tourniquets for extremity hemorrhage. Commercial tourniquets such as the CAT should be applied as proximal as possible on the affected limb. This was originally a military intervention that is now standard civilian prehospital care. Second, direct pressure and wound packing for junctional wounds, meaning axilla, groin, and neck where a tourniquet cannot be applied. Hemostatic gauze such as combat gauze should be packed directly into the wound with sustained pressure. Third, pelvic binders for unstable pelvic fractures. Our patient has a deformed pelvis. An unstable pelvic ring fracture can result in several liters of hemorrhage into the retroperitoneum. A circumferential pelvic binder at the level of the greater trochanters reduces pelvic volume, tamponades venous bleeding, and stabilizes bony fragments. This should happen in the trauma bay before anything else. Now think about our patient: he has a GCS of 8, but he also has an unstable pelvis and a distended abdomen. We apply the pelvic binder and call for blood. Then we assess the airway. The sequence matters because treating a patent airway before stopping the hemorrhage wastes the minutes that determine survival.
@@ -115,7 +121,10 @@ So what does the X step actually look like? Three interventions. First, tourniqu
 
 > **Bottom Line:** Assess, protect, then secure the airway using a stepwise algorithm.
 
-**Sources:** [15][16]
+
+**Sources:**
+- [15] [Mayglothling 2012](https://pubmed.ncbi.nlm.nih.gov/23114490/)
+- [16] [Brown 2020](https://pubmed.ncbi.nlm.nih.gov/33083558/)
 
 <!-- Speaker Notes:
 Once hemorrhage control is addressed, we move to A for Airway. The Western Trauma Association 2020 algorithm provides a stepwise approach. Step one is assessment: is the airway patent? Look for obstruction from blood, vomitus, teeth, or soft tissue swelling. Listen for stridor, gurgling, or snoring. Step two is basic maneuvers: jaw thrust with in-line cervical stabilization, suction, and removal of foreign bodies. Step three, if basic maneuvers fail, is a supraglottic airway as a bridge. Step four is definitive airway management, which in trauma means RSI and endotracheal intubation. EAST guidelines recommend RSI as the method of choice for emergency intubation in trauma. The key drugs are a sedative, typically ketamine or etomidate, plus a neuromuscular blocker, classically succinylcholine. Critical point: always have a surgical airway plan before you attempt laryngoscopy. In the setting of massive facial trauma, expanding neck hematoma, or complete upper airway obstruction, a surgical cricothyroidotomy may be the first and best choice. The airway algorithm is not a checklist you complete top to bottom every time. It is a decision tree where patient anatomy and physiology determine your entry point.
@@ -136,7 +145,11 @@ Once hemorrhage control is addressed, we move to A for Airway. The Western Traum
 
 > **Bottom Line:** GCS is one factor; clinical context determines the airway decision.
 
-**Sources:** [10][15][16]
+
+**Sources:**
+- [10] [Hatchimonji 2021](https://pubmed.ncbi.nlm.nih.gov/32382780/)
+- [15] [Mayglothling 2012](https://pubmed.ncbi.nlm.nih.gov/23114490/)
+- [16] [Brown 2020](https://pubmed.ncbi.nlm.nih.gov/33083558/)
 
 <!-- Speaker Notes:
 Now let us address the classic teaching: GCS less than or equal to 8, intubate. ATLS and EAST both list GCS 8 or below as an indication for definitive airway management. The logic is straightforward: a patient with a GCS of 8 or less has lost protective airway reflexes and is at risk for aspiration and hypoxia. However, the GCS was designed by Teasdale and Jennett as a prognostic tool, not as an airway management trigger. Hatchimonji and colleagues published a retrospective analysis of the National Trauma Data Bank in 2021. They found that among patients with GCS 6 to 8, intubation on arrival was associated with increased mortality, longer ICU stays, and longer length of stay. This does not mean you should never intubate a patient with GCS 8. It means you should not use a single number as an automatic trigger. A patient with a GCS of 7 from alcohol intoxication who has intact gag reflex and improving mental status is fundamentally different from a patient with a GCS of 7 from a subdural hematoma with active emesis and facial injuries. The WTA 2020 algorithm lists GCS 8 or less as one of several indications, alongside airway obstruction, inability to protect the airway, anticipated deterioration, combativeness limiting resuscitation, and severe facial or neck trauma.
@@ -178,7 +191,10 @@ Here is your first MCQ. Pause and think about this. We have a 35-year-old male w
 
 > **Bottom Line:** Treat first what kills first -- hemorrhage before airway in the exsanguinating patient.
 
-**Sources:** [11][18]
+
+**Sources:**
+- [11] [Eastridge 2001](https://pubmed.ncbi.nlm.nih.gov/23192066/)
+- [18] American 2025
 
 <!-- Speaker Notes:
 The answer is B. Apply direct pressure to the abdominal wound. This patient is exsanguinating. His blood pressure is 70 over 40 with a heart rate of 140 indicating Class IV hemorrhagic shock. The xABCDE framework tells us to address eXsanguination first. While the GCS of 7 is concerning and he has gurgling respirations suggesting airway compromise, the immediate lethal threat is hemorrhage. Stopping the external bleeding and calling for massive transfusion must happen before you invest time in RSI. Why not A? Because intubation takes time, and every second of ongoing hemorrhage in Class IV shock brings this patient closer to cardiac arrest. GCS 8 or less is one indication for intubation but does not override the priority of hemorrhage control. You can address the airway after you control the bleeding or simultaneously if you have enough personnel. Why not C? There is no description of absent breath sounds, hypotension refractory to hemorrhage control, or other signs specifically pointing to tension pneumothorax. While a right chest GSW could cause a pneumothorax, the clinical picture is dominated by hemorrhage. Why not D? A FAST exam is part of the C assessment but obtaining it should not delay hemorrhage control in a patient who is clearly in extremis.
@@ -199,7 +215,9 @@ The answer is B. Apply direct pressure to the abdominal wound. This patient is e
 
 > **Bottom Line:** Suspected tension pneumothorax is treated, not imaged.
 
-**Sources:** [17]
+
+**Sources:**
+- [17] [de 2022](https://pubmed.ncbi.nlm.nih.gov/34538823/)
 
 <!-- Speaker Notes:
 Moving to B for Breathing. The five immediately life-threatening chest injuries in the primary survey are tension pneumothorax, open pneumothorax, massive hemothorax, flail chest, and cardiac tamponade. Of these, tension pneumothorax is the most time-critical. The WTA 2022 critical decisions algorithm is clear: tension pneumothorax is a clinical diagnosis. The most reliable combination is hypotension with unilateral absent breath sounds. Other signs include distended neck veins, though these may be absent in the hypovolemic patient, hyperresonance to percussion, and subcutaneous emphysema. Tracheal deviation is a late finding and is unreliable. If you suspect tension pneumothorax, you decompress immediately. In the prehospital or field setting, needle decompression using a 14-gauge angiocatheter at least 8 centimeters in length at the 2nd intercostal space midclavicular line or the 5th intercostal space anterior axillary line. The 5th ICS anterior axillary line is increasingly preferred because the chest wall is thinner at that location, resulting in higher success rates. In the hospital or OR, finger thoracostomy is preferred because it provides tactile confirmation of pleural entry. Definitive management is tube thoracostomy in all cases. The critical error is waiting for a chest X-ray. The patient will arrest while you wait for the film.
@@ -220,7 +238,10 @@ Moving to B for Breathing. The five immediately life-threatening chest injuries 
 
 > **Bottom Line:** Identify the bleeding source to direct surgical or interventional control.
 
-**Sources:** [1][18]
+
+**Sources:**
+- [1] [Netherton 2019](https://pubmed.ncbi.nlm.nih.gov/31317856/)
+- [18] American 2025
 
 <!-- Speaker Notes:
 Now we are at C for Circulation. The first task in the circulation assessment is to identify where the patient is bleeding. The classic teaching is blood on the floor and four more. That gives you five places to look: external, meaning what you can see on the floor and on the patient; the chest; the abdomen; the pelvis; and the long bones, specifically the femurs. Each compartment is assessed differently. External hemorrhage should already be controlled in the X step. The chest is assessed with a chest X-ray, which can show hemothorax. The abdomen is assessed with the FAST exam. The pelvis is assessed with a pelvic X-ray and clinical examination. The long bones are assessed with physical exam and X-rays. In our patient, the distended abdomen and deformed pelvis point to at least two sources of hemorrhage. The FAST exam will help determine if there is free fluid in the abdomen. A positive FAST in a hypotensive trauma patient is an indication for operative intervention. Simultaneously, you are obtaining IV access, ideally two large-bore peripheral IVs or an intraosseous line, and initiating resuscitation. Let us talk about what resuscitation looks like in hemorrhagic shock.
@@ -241,7 +262,12 @@ Now we are at C for Circulation. The first task in the circulation assessment is
 
 > **Bottom Line:** Activate MTP on clinical criteria -- do not wait for a hemoglobin.
 
-**Sources:** [2][5][8][9]
+
+**Sources:**
+- [2] [Vang 2022](https://pubmed.ncbi.nlm.nih.gov/35258641/)
+- [5] [Holcomb 2015](https://pubmed.ncbi.nlm.nih.gov/25647203/)
+- [8] [Nunez 2009](https://pubmed.ncbi.nlm.nih.gov/19204506/)
+- [9] [Cotton 2010](https://pubmed.ncbi.nlm.nih.gov/20622617/)
 
 <!-- Speaker Notes:
 When do you activate a massive transfusion protocol? You do not wait for lab results. MTP is a clinical decision triggered by physiologic parameters at the bedside. Two validated tools help you make this call. First, the Shock Index, which is simply the heart rate divided by systolic blood pressure. A normal Shock Index is 0.5 to 0.7. A Shock Index greater than 1.0 is associated with a 4-fold increased risk of in-hospital mortality according to the Vang meta-analysis of 2022. You can calculate it in your head at the bedside. Our patient: HR 130 divided by SBP 80 equals 1.625, far above the threshold. Second, the ABC score, validated by Nunez in 2009 and Cotton in 2010. It is four yes-or-no questions: penetrating mechanism, SBP 90 or less in the ED, heart rate 120 or more in the ED, and positive FAST. A score of 2 or more predicts need for massive transfusion with a sensitivity of 75 to 90 percent and specificity of 67 to 88 percent. Our patient scores at least 2: SBP 80 and HR 130. Once you activate MTP, the blood bank sends a cooler of balanced blood products in a 1:1:1 ratio of plasma to platelets to red blood cells. This ratio was established by the PROPPR trial, which showed fewer exsanguination deaths at 24 hours with 1:1:1 versus 1:1:2.
@@ -267,7 +293,9 @@ When do you activate a massive transfusion protocol? You do not wait for lab res
 
 > **Bottom Line:** Our patient (HR 130, BP 80/50, GCS 8) fits Class III-IV -- activate MTP.
 
-**Sources:** [18]
+
+**Sources:**
+- [18] American 2025
 
 <!-- Speaker Notes:
 This is the ATLS hemorrhagic shock classification table. It is one of the most tested tables on the surgery shelf exam. Four classes, defined by estimated blood loss and physiologic response. Class I is less than 750 milliliters, under 15 percent of blood volume. The patient is essentially normal. Heart rate under 100, normal blood pressure, normal mentation. Treatment is monitoring. Class II is 750 to 1,500 milliliters, 15 to 30 percent. Heart rate rises to 100 to 120, blood pressure is still normal, but pulse pressure narrows. The patient may be anxious. Transfusion is possible. Class III is where things get critical. Blood loss of 1,500 to 2,000 milliliters, 30 to 40 percent. Heart rate 120 to 140, blood pressure drops, respiratory rate increases to 30 to 40, urine output falls to 5 to 15 milliliters per hour, and GCS drops to 12 to 14. This patient needs blood products. Class IV is greater than 2,000 milliliters, over 40 percent of blood volume. Heart rate above 140, profoundly hypotensive, minimal urine output, obtunded. This is massive transfusion territory. Look at our patient again. HR 130, BP 80 over 50, GCS 8. He fits squarely in the Class III to IV range and needs MTP activation. A critical nuance: these classes are a continuum, not discrete bins. A patient can move between classes rapidly, and the response to initial resuscitation is more important than the initial classification.
@@ -288,7 +316,9 @@ This is the ATLS hemorrhagic shock classification table. It is one of the most t
 
 > **Bottom Line:** FAST rules in; it does not rule out -- a negative FAST demands further workup.
 
-**Sources:** [1]
+
+**Sources:**
+- [1] [Netherton 2019](https://pubmed.ncbi.nlm.nih.gov/31317856/)
 
 <!-- Speaker Notes:
 The FAST exam, Focused Assessment with Sonography for Trauma, is integrated into the circulation assessment. The Netherton meta-analysis of 2019, which pooled 75 studies and over 24,000 patients, established the diagnostic accuracy of eFAST. For intra-abdominal free fluid, sensitivity is 74 percent and specificity is 98 percent. For pneumothorax, sensitivity is 69 percent and specificity is 99 percent. Pericardial effusion has the best performance with sensitivity of 91 percent and specificity of 94 percent. What do these numbers mean clinically? FAST is an excellent rule-in test. If you see free fluid in a hypotensive trauma patient, that is actionable information that supports operative intervention. However, FAST is a poor rule-out test. A sensitivity of 74 percent means that roughly one in four patients with intra-abdominal injury will have a negative FAST. So a negative FAST in a patient with concerning mechanism and hemodynamic instability should not reassure you. It should prompt further evaluation with CT scan if the patient is stable enough, or diagnostic peritoneal lavage, or repeat FAST if the patient is too unstable for CT. FAST is also operator-dependent and affected by body habitus, subcutaneous emphysema, and the volume of free fluid present. Think of FAST as a decision support tool, not a standalone diagnostic test.
@@ -330,7 +360,11 @@ Second MCQ. We are returning to our patient from the opening case. He has been t
 
 > **Bottom Line:** Positive FAST plus hemodynamic instability equals the operating room.
 
-**Sources:** [1][12][13]
+
+**Sources:**
+- [1] [Netherton 2019](https://pubmed.ncbi.nlm.nih.gov/31317856/)
+- [12] [Cannon 2017](https://pubmed.ncbi.nlm.nih.gov/28225743/)
+- [13] [LaGrone 2024](https://pubmed.ncbi.nlm.nih.gov/37697470/)
 
 <!-- Speaker Notes:
 The answer is B. Emergent exploratory laparotomy. This is a fundamental decision point in trauma surgery. A positive FAST in a hemodynamically unstable patient who is not responding to blood product resuscitation mandates operative intervention. There is no role for CT scanning in a patient with a blood pressure of 70 over 40 who is not responding to transfusion. CT requires the patient to be stable enough to lie flat in the scanner, receive contrast, and survive the transport to and from radiology. This patient is not that patient. Why not C? Diagnostic peritoneal lavage is a useful test when the FAST is equivocal or technically inadequate, for example in the morbidly obese patient or when subcutaneous emphysema limits the ultrasound windows. Here, the FAST is clearly positive. DPL would add time without changing the decision. Why not D? This is critically important. Two liters of normal saline in a patient with hemorrhagic shock is harmful. The EAST 2017 damage control resuscitation guideline and the AAST/ACS 2024 protocol both emphasize limiting crystalloid. Each liter of crystalloid dilutes clotting factors, drops the patient's temperature, and worsens acidosis. This is the lethal triad: hypothermia, acidosis, and coagulopathy. The correct resuscitation fluid in hemorrhagic shock is blood products, not crystalloid. Limit crystalloid to one liter or less. This patient needs the operating room for surgical hemorrhage control.
@@ -351,7 +385,10 @@ The answer is B. Emergent exploratory laparotomy. This is a fundamental decision
 
 > **Bottom Line:** Report GCS by components (E/V/M), not just the total -- motor matters most.
 
-**Sources:** [10][18]
+
+**Sources:**
+- [10] [Hatchimonji 2021](https://pubmed.ncbi.nlm.nih.gov/32382780/)
+- [18] American 2025
 
 <!-- Speaker Notes:
 D is for Disability. The rapid neurologic assessment in the primary survey has two components: the Glasgow Coma Scale and the pupillary exam. The GCS has three components. Eye opening: spontaneous scores 4, to voice scores 3, to pain scores 2, none scores 1. Verbal: oriented scores 5, confused scores 4, inappropriate words scores 3, incomprehensible sounds scores 2, none scores 1. Motor: obeys commands scores 6, localizes pain scores 5, withdrawal scores 4, abnormal flexion or decorticate posturing scores 3, extension or decerebrate posturing scores 2, none scores 1. Total range is 3 to 15. Severe TBI is GCS 8 or less. Moderate is 9 to 12. Mild is 13 to 15. A critical teaching point: always report GCS by components, not just the total. A GCS of 8 with E2 V2 M4 is fundamentally different from a GCS of 8 with E1 V1 M6. The motor component has been shown to be the single best predictor of neurologic outcome. A patient who localizes pain, motor 5, has a better prognosis than a patient who exhibits withdrawal, motor 4, even if the total GCS is the same. The pupillary exam adds critical information. Bilateral reactive pupils are reassuring. A unilateral fixed and dilated pupil suggests uncal herniation from an expanding intracranial mass lesion, which is a neurosurgical emergency. Bilateral fixed and dilated pupils in the setting of TBI carry a very poor prognosis.
@@ -372,7 +409,10 @@ D is for Disability. The rapid neurologic assessment in the primary survey has t
 
 > **Bottom Line:** Undress the patient to find injuries, then actively prevent hypothermia.
 
-**Sources:** [12][13]
+
+**Sources:**
+- [12] [Cannon 2017](https://pubmed.ncbi.nlm.nih.gov/28225743/)
+- [13] [LaGrone 2024](https://pubmed.ncbi.nlm.nih.gov/37697470/)
 
 <!-- Speaker Notes:
 E is for Exposure. This step has two purposes. First, fully expose the patient to identify all injuries. Cut off all clothing. Perform a complete log roll to examine the posterior torso, spine, buttocks, and perineum. Injuries hide posteriorly: stab wounds to the back, open book pelvic fractures, rectal injuries, and posterior scalp lacerations can all be missed if you do not roll the patient. Second, immediately prevent hypothermia. The lethal triad, also called the trauma triad of death, is the self-reinforcing cycle of hypothermia, acidosis, and coagulopathy. Hypothermia impairs the coagulation cascade, which worsens hemorrhage. Ongoing hemorrhage causes acidosis, which further impairs clotting factor function. The cycle is lethal: when all three components are present, the mortality rate is 47.8 percent. Breaking the cycle requires active warming at every step. Warm the trauma bay. Use forced-air warming blankets. Administer warm blood products and warm IV fluids through inline fluid warmers. Keep the operating room temperature at 80 degrees Fahrenheit or higher. Limit exposure time: examine the patient, identify injuries, then cover them. The resuscitation phase in the trauma bay is not the time for a leisurely head-to-toe exam. Expose, examine, cover, and warm. Hypothermia prevention starts the moment the patient arrives.
@@ -406,23 +446,23 @@ Five clinical pearls to take with you. First, X before A. In the exsanguinating 
 
 ## References
 
-1. Netherton S, Milenkovic V, Taylor M, Davis PJ. Diagnostic accuracy of eFAST in the trauma patient: a systematic review and meta-analysis. CJEM. 2019;21(6):727-738. PMID: 31317856
-2. Vang M, Ostberg M, Steinmetz J, Rasmussen LS. Shock index as a predictor for mortality in trauma patients: a systematic review and meta-analysis. Eur J Trauma Emerg Surg. 2022;48(4):2559-2566. PMID: 35258641
-3. Shakur H, Roberts I, et al. (CRASH-2). Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage. Lancet. 2010;376(9734):23-32. PMID: 20554319
-4. Roberts I, Shakur H, et al. The importance of early treatment with tranexamic acid in bleeding trauma patients: CRASH-2 exploratory analysis. Lancet. 2011;377(9771):1096-1101. PMID: 21439633
-5. Holcomb JB, Tilley BC, Baraniuk S, et al. (PROPPR). Transfusion of plasma, platelets, and red blood cells in a 1:1:1 vs a 1:1:2 ratio and mortality in patients with severe trauma. JAMA. 2015;313(5):471-482. PMID: 25647203
-6. Sperry JL, Guyette FX, Brown JB, et al. (PAMPer). Prehospital plasma during air medical transport in trauma patients at risk for hemorrhagic shock. N Engl J Med. 2018;379(4):315-326. PMID: 30044935
-7. Bickell WH, Wall MJ Jr, Pepe PE, et al. Immediate versus delayed fluid resuscitation for hypotensive patients with penetrating torso injuries. N Engl J Med. 1994;331(17):1105-1109. PMID: 7935634
-8. Nunez TC, Voskresensky IV, Dossett LA, et al. Early prediction of massive transfusion in trauma: simple as ABC. J Trauma. 2009;66(2):346-352. PMID: 19204506
-9. Cotton BA, Dossett LA, Haut ER, et al. Multicenter validation of a simplified score to predict massive transfusion in trauma. J Trauma. 2010;69(Suppl 1):S33-S39. PMID: 20622617
-10. Hatchimonji JS, Dumas RP, Kaufman EJ, et al. Questioning dogma: does a GCS of 8 require intubation? Eur J Trauma Emerg Surg. 2021;47:2073-2079. PMID: 32382780
-11. Eastridge BJ, Mabry RL, Seguin P, et al. Death on the battlefield (2001-2011): implications for the future of combat casualty care. J Trauma Acute Care Surg. 2012;73(6 Suppl 5):S431-S437. PMID: 23192066
-12. Cannon JW, Khan MA, Raja AS, et al. Damage control resuscitation in patients with severe traumatic hemorrhage: EAST practice management guideline. J Trauma Acute Care Surg. 2017;82(3):605-617. PMID: 28225743
-13. LaGrone LN, Stein D, Cribari C, et al. AAST/ACS-COT clinical protocol for damage-control resuscitation. J Trauma Acute Care Surg. 2024;96(3):510-520. PMID: 37697470
-14. Meizoso JP, Cotton BA, Lawless RA, et al. Whole blood resuscitation for injured patients: EAST systematic review, meta-analysis, and practice management guideline. J Trauma Acute Care Surg. 2024;97(3):460-470. PMID: 38531812
-15. Mayglothling J, Duane TM, Gibbs M, et al. Emergency tracheal intubation immediately following traumatic injury: EAST practice management guideline. J Trauma Acute Care Surg. 2012;73(5 Suppl 4):S333-S340. PMID: 23114490
-16. Brown CVR, Inaba K, Shatz DV, et al. WTA critical decisions in trauma: airway management in adult trauma patients. Trauma Surg Acute Care Open. 2020;5(1):e000539. PMID: 33083558
-17. de Moya M, Brasel KJ, Brown CVR, et al. Evaluation and management of traumatic pneumothorax: WTA critical decisions algorithm. J Trauma Acute Care Surg. 2022;92(1):103-107. PMID: 34538823
+1. Netherton S, Milenkovic V, Taylor M, Davis PJ. Diagnostic accuracy of eFAST in the trauma patient: a systematic review and meta-analysis. CJEM. 2019;21(6):727-738. PMID: [31317856](https://pubmed.ncbi.nlm.nih.gov/31317856/)
+2. Vang M, Ostberg M, Steinmetz J, Rasmussen LS. Shock index as a predictor for mortality in trauma patients: a systematic review and meta-analysis. Eur J Trauma Emerg Surg. 2022;48(4):2559-2566. PMID: [35258641](https://pubmed.ncbi.nlm.nih.gov/35258641/)
+3. Shakur H, Roberts I, et al. (CRASH-2). Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage. Lancet. 2010;376(9734):23-32. PMID: [20554319](https://pubmed.ncbi.nlm.nih.gov/20554319/)
+4. Roberts I, Shakur H, et al. The importance of early treatment with tranexamic acid in bleeding trauma patients: CRASH-2 exploratory analysis. Lancet. 2011;377(9771):1096-1101. PMID: [21439633](https://pubmed.ncbi.nlm.nih.gov/21439633/)
+5. Holcomb JB, Tilley BC, Baraniuk S, et al. (PROPPR). Transfusion of plasma, platelets, and red blood cells in a 1:1:1 vs a 1:1:2 ratio and mortality in patients with severe trauma. JAMA. 2015;313(5):471-482. PMID: [25647203](https://pubmed.ncbi.nlm.nih.gov/25647203/)
+6. Sperry JL, Guyette FX, Brown JB, et al. (PAMPer). Prehospital plasma during air medical transport in trauma patients at risk for hemorrhagic shock. N Engl J Med. 2018;379(4):315-326. PMID: [30044935](https://pubmed.ncbi.nlm.nih.gov/30044935/)
+7. Bickell WH, Wall MJ Jr, Pepe PE, et al. Immediate versus delayed fluid resuscitation for hypotensive patients with penetrating torso injuries. N Engl J Med. 1994;331(17):1105-1109. PMID: [7935634](https://pubmed.ncbi.nlm.nih.gov/7935634/)
+8. Nunez TC, Voskresensky IV, Dossett LA, et al. Early prediction of massive transfusion in trauma: simple as ABC. J Trauma. 2009;66(2):346-352. PMID: [19204506](https://pubmed.ncbi.nlm.nih.gov/19204506/)
+9. Cotton BA, Dossett LA, Haut ER, et al. Multicenter validation of a simplified score to predict massive transfusion in trauma. J Trauma. 2010;69(Suppl 1):S33-S39. PMID: [20622617](https://pubmed.ncbi.nlm.nih.gov/20622617/)
+10. Hatchimonji JS, Dumas RP, Kaufman EJ, et al. Questioning dogma: does a GCS of 8 require intubation? Eur J Trauma Emerg Surg. 2021;47:2073-2079. PMID: [32382780](https://pubmed.ncbi.nlm.nih.gov/32382780/)
+11. Eastridge BJ, Mabry RL, Seguin P, et al. Death on the battlefield (2001-2011): implications for the future of combat casualty care. J Trauma Acute Care Surg. 2012;73(6 Suppl 5):S431-S437. PMID: [23192066](https://pubmed.ncbi.nlm.nih.gov/23192066/)
+12. Cannon JW, Khan MA, Raja AS, et al. Damage control resuscitation in patients with severe traumatic hemorrhage: EAST practice management guideline. J Trauma Acute Care Surg. 2017;82(3):605-617. PMID: [28225743](https://pubmed.ncbi.nlm.nih.gov/28225743/)
+13. LaGrone LN, Stein D, Cribari C, et al. AAST/ACS-COT clinical protocol for damage-control resuscitation. J Trauma Acute Care Surg. 2024;96(3):510-520. PMID: [37697470](https://pubmed.ncbi.nlm.nih.gov/37697470/)
+14. Meizoso JP, Cotton BA, Lawless RA, et al. Whole blood resuscitation for injured patients: EAST systematic review, meta-analysis, and practice management guideline. J Trauma Acute Care Surg. 2024;97(3):460-470. PMID: [38531812](https://pubmed.ncbi.nlm.nih.gov/38531812/)
+15. Mayglothling J, Duane TM, Gibbs M, et al. Emergency tracheal intubation immediately following traumatic injury: EAST practice management guideline. J Trauma Acute Care Surg. 2012;73(5 Suppl 4):S333-S340. PMID: [23114490](https://pubmed.ncbi.nlm.nih.gov/23114490/)
+16. Brown CVR, Inaba K, Shatz DV, et al. WTA critical decisions in trauma: airway management in adult trauma patients. Trauma Surg Acute Care Open. 2020;5(1):e000539. PMID: [33083558](https://pubmed.ncbi.nlm.nih.gov/33083558/)
+17. de Moya M, Brasel KJ, Brown CVR, et al. Evaluation and management of traumatic pneumothorax: WTA critical decisions algorithm. J Trauma Acute Care Surg. 2022;92(1):103-107. PMID: [34538823](https://pubmed.ncbi.nlm.nih.gov/34538823/)
 18. American College of Surgeons Committee on Trauma. Advanced Trauma Life Support (ATLS) 11th Edition. Chicago, IL: ACS; 2025
 
 
