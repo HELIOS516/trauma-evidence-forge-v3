@@ -1,0 +1,486 @@
+{
+  "1": {
+    "title": "Trauma Shelf Review: Everything xABCDE Didn't Cover",
+    "instruction": "Full-bleed hero image, centered text, credentials",
+    "stylePoints": [
+      "Full-bleed visual with centered title hierarchy.",
+      "High-contrast text over controlled dark overlay.",
+      "Use premium conference-grade typography spacing."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Trauma Shelf Review: Everything xABCDE Didn't Cover; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "2": {
+    "title": "After This Lecture You Will Be Able To:",
+    "instruction": "Minimal dark background, numbered list",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: After This Lecture You Will Be Able To:; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "3": {
+    "title": "Epidural and Subdural Hematomas Have Opposite CT Patterns and Prognoses",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Epidural and Subdural Hematomas Have Opposite CT Patterns and Prognoses; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "4": {
+    "title": "Uncal Herniation Produces Ipsilateral Blown Pupil Before Contralateral Hemiparesis",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Uncal Herniation Produces Ipsilateral Blown Pupil Before Contralateral Hemiparesis; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "5": {
+    "title": "BTF 4th Edition ICP Management Follows a 3-Tier Escalation Algorithm",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: BTF 4th Edition ICP Management Follows a 3-Tier Escalation Algorithm; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "6": {
+    "title": "Hypotension Below 90 mmHg Doubles TBI Mortality \u2014 Monroe-Kellie Explains Why",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Hypotension Below 90 mmHg Doubles TBI Mortality \u2014 Monroe-Kellie Explains Why; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "7": {
+    "title": "28-year-old male, temporal bone fracture, lucid interval, now GCS declining. CT shows biconvex hyperdensity with 8 mm midline shift. Next st",
+    "instruction": "Quiz card, A-D options, highlight correct answer",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: 28-year-old male, temporal bone fracture, lucid interval, now GCS declining. CT shows biconvex hyperdensity with 8 mm midline shift. Next st; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "8": {
+    "title": "Emergent Craniotomy for Epidural Hematoma with Midline Shift Saves Lives",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Emergent Craniotomy for Epidural Hematoma with Midline Shift Saves Lives; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "9": {
+    "title": "Four Spinal Cord Syndromes Produce Distinct Deficit Patterns",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Four Spinal Cord Syndromes Produce Distinct Deficit Patterns; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "10": {
+    "title": "Canadian C-Spine Rule Is More Sensitive and More Specific Than NEXUS",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Canadian C-Spine Rule Is More Sensitive and More Specific Than NEXUS; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "11": {
+    "title": "Neurogenic Shock = Hypotension + Bradycardia \u2014 The Opposite of Hypovolemic",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Neurogenic Shock = Hypotension + Bradycardia \u2014 The Opposite of Hypovolemic; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "12": {
+    "title": "22F diving accident, C5 fracture, BP 78/50, HR 52, warm dry extremities. Best initial vasopressor?",
+    "instruction": "Quiz card, A-D options, highlight correct answer",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: 22F diving accident, C5 fracture, BP 78/50, HR 52, warm dry extremities. Best initial vasopressor?; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "13": {
+    "title": "Norepinephrine Is First-Line for Neurogenic Shock \u2014 Bradycardia + Hypotension Is the Clue",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Norepinephrine Is First-Line for Neurogenic Shock \u2014 Bradycardia + Hypotension Is the Clue; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "14": {
+    "title": "Burn Depth Determines Sensation, Healing, and Need for Grafting",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Burn Depth Determines Sensation, Healing, and Need for Grafting; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "15": {
+    "title": "Rule of Nines Maps Body Surface Area \u2014 Pediatric Head Is Twice Adult Proportion",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Rule of Nines Maps Body Surface Area \u2014 Pediatric Head Is Twice Adult Proportion; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "16": {
+    "title": "Parkland Formula Guides First 24 Hours \u2014 Urine Output Drives the Rate",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Parkland Formula Guides First 24 Hours \u2014 Urine Output Drives the Rate; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "17": {
+    "title": "Inhalation Injury Demands Early Intubation \u2014 Edema Closes the Airway",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Inhalation Injury Demands Early Intubation \u2014 Edema Closes the Airway; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "18": {
+    "title": "80 kg man, 40% TBSA burn at 1400h, arrives ED at 1600h. How much LR should be infused by 2200h?",
+    "instruction": "Quiz card, A-D options, highlight correct answer",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: 80 kg man, 40% TBSA burn at 1400h, arrives ED at 1600h. How much LR should be infused by 2200h?; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "19": {
+    "title": "Calculate From Time of Burn, Not Arrival \u2014 Half of Total in First 8 Hours",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Calculate From Time of Burn, Not Arrival \u2014 Half of Total in First 8 Hours; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "20": {
+    "title": "Hemothorax Output Thresholds Determine Operative Intervention",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Hemothorax Output Thresholds Determine Operative Intervention; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "21": {
+    "title": "Aortic Injury Occurs at the Isthmus \u2014 Widened Mediastinum Is the CXR Clue",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Aortic Injury Occurs at the Isthmus \u2014 Widened Mediastinum Is the CXR Clue; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "22": {
+    "title": "EDT Survival Depends on Mechanism \u2014 Penetrating Cardiac Has Best Odds",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: EDT Survival Depends on Mechanism \u2014 Penetrating Cardiac Has Best Odds; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "23": {
+    "title": "Cardiac Tamponade = Beck Triad \u2014 Distinguish from Tension PTX by Breath Sounds",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Cardiac Tamponade = Beck Triad \u2014 Distinguish from Tension PTX by Breath Sounds; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "24": {
+    "title": "Splenic NOM Succeeds 85% and Hepatic NOM 92% for Low-Grade Injuries",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Splenic NOM Succeeds 85% and Hepatic NOM 92% for Low-Grade Injuries; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "25": {
+    "title": "GSW to Abdomen Goes to OR \u2014 Stab Wounds Get Selective Workup",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: GSW to Abdomen Goes to OR \u2014 Stab Wounds Get Selective Workup; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "26": {
+    "title": "Penetrating Neck Zones Dictate Workup \u2014 Hard Signs Mean Immediate OR",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Penetrating Neck Zones Dictate Workup \u2014 Hard Signs Mean Immediate OR; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "27": {
+    "title": "Retroperitoneal Zones at Laparotomy: 1 Explore, 2 Selective, 3 Don't",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Retroperitoneal Zones at Laparotomy: 1 Explore, 2 Selective, 3 Don't; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "28": {
+    "title": "Pelvic Fracture Classification Predicts Hemorrhage Risk and Mortality",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Pelvic Fracture Classification Predicts Hemorrhage Risk and Mortality; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "29": {
+    "title": "Pelvic Fracture Algorithm: Binder First, FAST Second, Then Decide",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Pelvic Fracture Algorithm: Binder First, FAST Second, Then Decide; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "30": {
+    "title": "Blood at Meatus Means Retrograde Urethrogram Before Foley \u2014 Always",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Blood at Meatus Means Retrograde Urethrogram Before Foley \u2014 Always; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "31": {
+    "title": "Compartment Syndrome Has a 6-Hour Window \u2014 Pain with Passive Stretch Is the Earliest Sign",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Compartment Syndrome Has a 6-Hour Window \u2014 Pain with Passive Stretch Is the Earliest Sign; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "32": {
+    "title": "Gustilo Classification Grades Open Fractures and Drives Antibiotic Selection",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Gustilo Classification Grades Open Fractures and Drives Antibiotic Selection; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "33": {
+    "title": "Fat Embolism Presents 24-72 Hours Post-Fracture with a Classic Triad",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Fat Embolism Presents 24-72 Hours Post-Fracture with a Classic Triad; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "34": {
+    "title": "Damage Control Surgery Saves Lives by Treating Physiology Before Anatomy",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Damage Control Surgery Saves Lives by Treating Physiology Before Anatomy; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "35": {
+    "title": "30M GSW abdomen. OR: liver laceration + small bowel injuries. Temp 34.2, pH 7.18, INR 2.1. Best approach?",
+    "instruction": "Quiz card, A-D options, highlight correct answer",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: 30M GSW abdomen. OR: liver laceration + small bowel injuries. Temp 34.2, pH 7.18, INR 2.1. Best approach?; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "36": {
+    "title": "Damage Control: All Three Elements of Lethal Triad Present \u2014 Abbreviated Surgery Saves Lives",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Damage Control: All Three Elements of Lethal Triad Present \u2014 Abbreviated Surgery Saves Lives; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "37": {
+    "title": "Three Populations Require Modified Trauma Management \u2014 Recognize the Patterns",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Three Populations Require Modified Trauma Management \u2014 Recognize the Patterns; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "38": {
+    "title": "8-month-old brought by mother's boyfriend. \"Rolled off couch.\" Bilateral subdurals on CT, retinal hemorrhages on fundoscopy. Most likely dia",
+    "instruction": "Quiz card, A-D options, highlight correct answer",
+    "stylePoints": [
+      "Split layout with clear visual/text separation.",
+      "Prioritize clinical realism and urgency.",
+      "Keep vitals and key findings scan-friendly."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "Level 1 trauma bay initial assessment of blunt chest trauma patient with multidisciplinary team; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "39": {
+    "title": "Non-Accidental Trauma \u2014 Bilateral Subdurals + Retinal Hemorrhages = Abuse Until Proven Otherwise",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Non-Accidental Trauma \u2014 Bilateral Subdurals + Retinal Hemorrhages = Abuse Until Proven Otherwise; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "40": {
+    "title": "45M motorcycle crash. Open tibial fracture (Gustilo II), tense anterior compartment, tachycardic. BP 92/60. Pelvic binder in place. FAST pos",
+    "instruction": "Quiz card, A-D options, highlight correct answer",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: 45M motorcycle crash. Open tibial fracture (Gustilo II), tense anterior compartment, tachycardic. BP 92/60. Pelvic binder in place. FAST pos; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "41": {
+    "title": "Hemorrhage Control Takes Priority Over Compartment Syndrome in the Hemodynamically Unstable Patient",
+    "instruction": "Professional layout, bullet hierarchy, sources",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Hemorrhage Control Takes Priority Over Compartment Syndrome in the Hemodynamically Unstable Patient; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "42": {
+    "title": "15 Shelf Pearls: One Fact, One Question Pattern",
+    "instruction": "Data table, bold stats, high contrast",
+    "stylePoints": [
+      "Use full-width table and preserve source formatting exactly.",
+      "Maximize contrast for numeric readability.",
+      "Keep decorative elements minimal to avoid data interference."
+    ],
+    "imageRequired": false,
+    "imagePrompt": "NO_IMAGE (data-first slide). Optional background only: subtle, defocused clinical environment with low contrast and no recognizable text."
+  },
+  "43": {
+    "title": "Ten Domains, Six Rules: Pattern Recognition Wins the Shelf",
+    "instruction": "Large numbered list, bold key phrases, high-impact",
+    "stylePoints": [
+      "Lead with one dominant assertion in headline zone.",
+      "Keep bullets concise with clear visual hierarchy.",
+      "Reserve lower band for citations and sources."
+    ],
+    "imageRequired": true,
+    "imagePrompt": "clinical scene representing: Ten Domains, Six Rules: Pattern Recognition Wins the Shelf; ultra-detailed photoreal medical photography, 16:9 composition, realistic skin and material textures, HDR lighting, shallow depth of field, anatomically accurate, non-graphic, no illustrations, no diagrams, no icons, no overlaid text, no watermark."
+  },
+  "44": {
+    "title": "References",
+    "instruction": "2-column, dense numbered list, no images",
+    "stylePoints": [
+      "Maintain high-contrast readability.",
+      "Use a clean professional medical conference aesthetic.",
+      "Preserve citation and source fidelity."
+    ],
+    "imageRequired": false,
+    "imagePrompt": "NO_IMAGE"
+  }
+}
