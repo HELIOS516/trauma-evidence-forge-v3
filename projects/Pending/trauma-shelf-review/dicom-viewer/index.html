@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CT Viewer — Trauma Shelf Review</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: 'Courier New', Courier, monospace;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    /* ── Header ── */
+    #header {
+      background: #111;
+      border-bottom: 1px solid #2a2a2a;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
+    #header h1 {
+      font-size: 13px;
+      font-weight: 600;
+      color: #888;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ── Case tabs ── */
+    #tabs {
+      display: flex;
+      gap: 6px;
+      margin-left: auto;
+    }
+
+    .tab-btn {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      color: #999;
+      padding: 5px 14px;
+      font-family: inherit;
+      font-size: 12px;
+      cursor: pointer;
+      border-radius: 3px;
+      transition: all 0.15s;
+      letter-spacing: 0.04em;
+    }
+
+    .tab-btn:hover {
+      border-color: #555;
+      color: #ccc;
+    }
+
+    .tab-btn.active {
+      background: #1e3a2f;
+      border-color: #2a6b4a;
+      color: #4caf7d;
+    }
+
+    /* ── Main viewport ── */
+    #viewport {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #canvas-wrap {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: ns-resize;
+    }
+
+    #ct-canvas {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      /* windowing applied via CSS filter */
+    }
+
+    /* off-screen image for loading */
+    #loader-img {
+      display: none;
+    }
+
+    /* ── Overlay HUD ── */
+    #hud-topleft {
+      position: absolute;
+      top: 10px;
+      left: 14px;
+      font-size: 11px;
+      color: #4caf7d;
+      letter-spacing: 0.05em;
+      pointer-events: none;
+      line-height: 1.6;
+    }
+
+    #hud-topright {
+      position: absolute;
+      top: 10px;
+      right: 14px;
+      font-size: 11px;
+      color: #888;
+      text-align: right;
+      pointer-events: none;
+      line-height: 1.6;
+    }
+
+    #hud-bottomleft {
+      position: absolute;
+      bottom: 60px;
+      left: 14px;
+      font-size: 11px;
+      color: #666;
+      pointer-events: none;
+    }
+
+    /* ── Slice indicator bar ── */
+    #slice-bar-wrap {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 42px;
+      background: rgba(10,10,10,0.85);
+      border-top: 1px solid #222;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 0 16px;
+    }
+
+    #slice-label {
+      font-size: 12px;
+      color: #4caf7d;
+      min-width: 90px;
+      letter-spacing: 0.05em;
+    }
+
+    #slice-progress {
+      flex: 1;
+      height: 4px;
+      background: #222;
+      border-radius: 2px;
+      position: relative;
+      cursor: pointer;
+    }
+
+    #slice-fill {
+      height: 100%;
+      background: #2a6b4a;
+      border-radius: 2px;
+      transition: width 0.05s linear;
+    }
+
+    /* ── Controls panel ── */
+    #controls {
+      background: #111;
+      border-top: 1px solid #2a2a2a;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+    }
+
+    .ctrl-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .ctrl-label {
+      font-size: 11px;
+      color: #666;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      min-width: 72px;
+    }
+
+    input[type=range] {
+      -webkit-appearance: none;
+      width: 120px;
+      height: 3px;
+      background: #2a2a2a;
+      border-radius: 2px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #4caf7d;
+      cursor: pointer;
+    }
+
+    .ctrl-val {
+      font-size: 11px;
+      color: #888;
+      min-width: 32px;
+      text-align: right;
+    }
+
+    #reset-btn {
+      margin-left: auto;
+      background: #1a1a1a;
+      border: 1px solid #333;
+      color: #666;
+      padding: 4px 10px;
+      font-family: inherit;
+      font-size: 11px;
+      cursor: pointer;
+      border-radius: 3px;
+      letter-spacing: 0.04em;
+      transition: all 0.15s;
+    }
+
+    #reset-btn:hover {
+      border-color: #444;
+      color: #999;
+    }
+
+    /* ── Loading overlay ── */
+    #loading-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(10,10,10,0.92);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      z-index: 10;
+    }
+
+    #loading-overlay.hidden { display: none; }
+
+    #loading-text {
+      font-size: 13px;
+      color: #4caf7d;
+      letter-spacing: 0.1em;
+    }
+
+    #loading-bar-wrap {
+      width: 240px;
+      height: 3px;
+      background: #222;
+      border-radius: 2px;
+    }
+
+    #loading-bar {
+      height: 100%;
+      background: #2a6b4a;
+      border-radius: 2px;
+      width: 0%;
+      transition: width 0.1s linear;
+    }
+
+    #loading-sub {
+      font-size: 10px;
+      color: #444;
+      letter-spacing: 0.06em;
+    }
+
+    /* ── Drag scroll hint ── */
+    #drag-hint {
+      position: absolute;
+      bottom: 70px;
+      right: 14px;
+      font-size: 10px;
+      color: #333;
+      letter-spacing: 0.05em;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+<div id="header">
+  <h1>CT Viewer</h1>
+  <div id="tabs">
+    <button class="tab-btn active" data-case="herniation">Brain CT &mdash; Herniation</button>
+    <button class="tab-btn" data-case="hemothorax">Chest CT &mdash; Hemothorax</button>
+  </div>
+</div>
+
+<div id="viewport">
+  <div id="canvas-wrap">
+    <canvas id="ct-canvas"></canvas>
+    <img id="loader-img" alt="">
+
+    <div id="hud-topleft">
+      <div id="hud-case">BRAIN CT</div>
+      <div id="hud-modality">CT &bull; AXIAL</div>
+    </div>
+
+    <div id="hud-topright">
+      <div id="hud-slice">Slice 1 / 206</div>
+      <div id="hud-ww">WW: 400 &bull; WL: 40</div>
+    </div>
+
+    <div id="hud-bottomleft">Scroll or drag to navigate slices</div>
+
+    <div id="slice-bar-wrap">
+      <div id="slice-label">1 / 206</div>
+      <div id="slice-progress">
+        <div id="slice-fill"></div>
+      </div>
+    </div>
+
+    <div id="loading-overlay">
+      <div id="loading-text">LOADING SLICES</div>
+      <div id="loading-bar-wrap"><div id="loading-bar"></div></div>
+      <div id="loading-sub">0 / 0</div>
+    </div>
+  </div>
+</div>
+
+<div id="controls">
+  <div class="ctrl-group">
+    <span class="ctrl-label">Brightness</span>
+    <input type="range" id="brightness" min="-100" max="100" value="0" step="1">
+    <span class="ctrl-val" id="brightness-val">0</span>
+  </div>
+  <div class="ctrl-group">
+    <span class="ctrl-label">Contrast</span>
+    <input type="range" id="contrast" min="50" max="300" value="100" step="1">
+    <span class="ctrl-val" id="contrast-val">100%</span>
+  </div>
+  <div class="ctrl-group">
+    <span class="ctrl-label">Invert</span>
+    <input type="range" id="invert" min="0" max="100" value="0" step="1">
+    <span class="ctrl-val" id="invert-val">0%</span>
+  </div>
+  <button id="reset-btn">Reset</button>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  // ── Case definitions ──────────────────────────────────────────────────────
+  const CASES = {
+    herniation: {
+      label: 'BRAIN CT',
+      modality: 'CT \u2022 AXIAL',
+      total: 206,
+      dir: '../images/ct_slices/ct_herniation_full',
+      ext: 'jpeg',
+      pad: 4,
+    },
+    hemothorax: {
+      label: 'CHEST CT',
+      modality: 'CT \u2022 AXIAL',
+      total: 191,
+      dir: '../images/ct_slices/ct_hemothorax_full',
+      ext: 'jpeg',
+      pad: 4,
+    },
+  };
+
+  // ── State ─────────────────────────────────────────────────────────────────
+  let currentCase = 'herniation';
+  let currentSlice = 0;          // 0-indexed
+  let images = [];               // ImageBitmap array per case
+  let loaded = {};               // { herniation: [...], hemothorax: [...] }
+  let loadedCount = {};
+  let filterBrightness = 0;
+  let filterContrast = 100;
+  let filterInvert = 0;
+  let isDragging = false;
+  let dragStartY = 0;
+  let dragStartSlice = 0;
+  let isProgressDragging = false;
+
+  // ── DOM refs ──────────────────────────────────────────────────────────────
+  const canvas       = document.getElementById('ct-canvas');
+  const ctx          = canvas.getContext('2d');
+  const loaderImg    = document.getElementById('loader-img');
+  const hudCase      = document.getElementById('hud-case');
+  const hudModality  = document.getElementById('hud-modality');
+  const hudSlice     = document.getElementById('hud-slice');
+  const hudWW        = document.getElementById('hud-ww');
+  const sliceLabel   = document.getElementById('slice-label');
+  const sliceFill    = document.getElementById('slice-fill');
+  const sliceProgress= document.getElementById('slice-progress');
+  const loadOverlay  = document.getElementById('loading-overlay');
+  const loadBar      = document.getElementById('loading-bar');
+  const loadSub      = document.getElementById('loading-sub');
+  const loadText     = document.getElementById('loading-text');
+  const brightnessInput = document.getElementById('brightness');
+  const contrastInput   = document.getElementById('contrast');
+  const invertInput     = document.getElementById('invert');
+  const brightnessVal   = document.getElementById('brightness-val');
+  const contrastVal     = document.getElementById('contrast-val');
+  const invertVal       = document.getElementById('invert-val');
+
+  // ── Helpers ───────────────────────────────────────────────────────────────
+  function padNum(n, width) {
+    return String(n).padStart(width, '0');
+  }
+
+  function framePath(caseKey, idx) {
+    const c = CASES[caseKey];
+    return c.dir + '/frame_' + padNum(idx + 1, c.pad) + '.' + c.ext;
+  }
+
+  function setFilter() {
+    const b = filterBrightness;
+    const c = filterContrast;
+    const iv = filterInvert;
+    // brightness() in CSS: 0=black, 1=normal, >1=bright; map -100..100 -> 0..2
+    const cssB = (100 + b) / 100;
+    canvas.style.filter =
+      'brightness(' + cssB.toFixed(3) + ') ' +
+      'contrast(' + c + '%) ' +
+      'invert(' + iv + '%)';
+    hudWW.textContent = 'B:' + (b >= 0 ? '+' : '') + b + ' C:' + c + '%' + (iv ? ' INV' : '');
+  }
+
+  function drawSlice(idx) {
+    const imgs = loaded[currentCase];
+    if (!imgs || !imgs[idx]) return;
+    const img = imgs[idx];
+    const cw = canvas.width;
+    const ch = canvas.height;
+    ctx.clearRect(0, 0, cw, ch);
+    // Maintain aspect ratio, center
+    const scale = Math.min(cw / img.width, ch / img.height);
+    const dw = img.width * scale;
+    const dh = img.height * scale;
+    const dx = (cw - dw) / 2;
+    const dy = (ch - dh) / 2;
+    ctx.drawImage(img, dx, dy, dw, dh);
+  }
+
+  function setSlice(idx) {
+    const total = CASES[currentCase].total;
+    idx = Math.max(0, Math.min(total - 1, idx));
+    currentSlice = idx;
+    const display = idx + 1;
+    hudSlice.textContent = 'Slice ' + display + ' / ' + total;
+    sliceLabel.textContent = display + ' / ' + total;
+    sliceFill.style.width = ((display / total) * 100).toFixed(2) + '%';
+    drawSlice(idx);
+  }
+
+  // ── Canvas sizing ─────────────────────────────────────────────────────────
+  function resizeCanvas() {
+    const wrap = document.getElementById('canvas-wrap');
+    // Leave room for slice bar inside viewport
+    const w = wrap.clientWidth;
+    const h = wrap.clientHeight - 42; // slice bar height
+    canvas.width = w;
+    canvas.height = h;
+    drawSlice(currentSlice);
+  }
+
+  window.addEventListener('resize', resizeCanvas);
+
+  // ── Image preloading ──────────────────────────────────────────────────────
+  function preloadCase(caseKey, onComplete) {
+    if (loaded[caseKey]) {
+      onComplete();
+      return;
+    }
+    const c = CASES[caseKey];
+    const total = c.total;
+    const arr = new Array(total).fill(null);
+    loaded[caseKey] = arr;
+    loadedCount[caseKey] = 0;
+
+    loadText.textContent = 'LOADING SLICES';
+    loadSub.textContent = '0 / ' + total;
+    loadBar.style.width = '0%';
+    loadOverlay.classList.remove('hidden');
+
+    let finished = 0;
+
+    // Load in batches for responsiveness
+    const BATCH = 10;
+    let next = 0;
+
+    function loadOne(i) {
+      const img = new Image();
+      img.onload = function () {
+        createImageBitmap(img).then(function (bmp) {
+          arr[i] = bmp;
+          finished++;
+          loadedCount[caseKey] = finished;
+          const pct = (finished / total * 100).toFixed(0);
+          loadBar.style.width = pct + '%';
+          loadSub.textContent = finished + ' / ' + total;
+          // Draw first available frame immediately
+          if (finished === 1) {
+            loadOverlay.classList.add('hidden');
+            setSlice(0);
+          }
+          if (finished === total) {
+            loadOverlay.classList.add('hidden');
+            onComplete();
+          }
+          // Kick off next batch member
+          if (next < total) {
+            loadOne(next++);
+          }
+        });
+      };
+      img.onerror = function () {
+        finished++;
+        if (finished === total) {
+          loadOverlay.classList.add('hidden');
+          onComplete();
+        }
+        if (next < total) {
+          loadOne(next++);
+        }
+      };
+      img.src = framePath(caseKey, i);
+    }
+
+    // Seed initial batch
+    const seed = Math.min(BATCH, total);
+    next = seed;
+    for (let i = 0; i < seed; i++) {
+      loadOne(i);
+    }
+  }
+
+  // ── Case switching ────────────────────────────────────────────────────────
+  function switchCase(caseKey) {
+    if (caseKey === currentCase && loaded[caseKey]) return;
+    currentCase = caseKey;
+    currentSlice = 0;
+    images = loaded[caseKey] || [];
+
+    const c = CASES[caseKey];
+    hudCase.textContent = c.label;
+    hudModality.textContent = c.modality;
+
+    document.querySelectorAll('.tab-btn').forEach(function (btn) {
+      btn.classList.toggle('active', btn.dataset.case === caseKey);
+    });
+
+    preloadCase(caseKey, function () {
+      setSlice(currentSlice);
+    });
+  }
+
+  // ── Input: mouse wheel ────────────────────────────────────────────────────
+  document.getElementById('canvas-wrap').addEventListener('wheel', function (e) {
+    e.preventDefault();
+    const delta = e.deltaY > 0 ? 1 : -1;
+    setSlice(currentSlice + delta);
+  }, { passive: false });
+
+  // ── Input: touch ──────────────────────────────────────────────────────────
+  let touchStartY = 0;
+  let touchStartSlice = 0;
+  const TOUCH_SENSITIVITY = 6; // px per slice
+
+  document.getElementById('canvas-wrap').addEventListener('touchstart', function (e) {
+    touchStartY = e.touches[0].clientY;
+    touchStartSlice = currentSlice;
+  }, { passive: true });
+
+  document.getElementById('canvas-wrap').addEventListener('touchmove', function (e) {
+    e.preventDefault();
+    const dy = e.touches[0].clientY - touchStartY;
+    const delta = -Math.round(dy / TOUCH_SENSITIVITY);
+    setSlice(touchStartSlice + delta);
+  }, { passive: false });
+
+  // ── Input: mouse drag ─────────────────────────────────────────────────────
+  const DRAG_SENSITIVITY = 4; // px per slice
+
+  document.getElementById('canvas-wrap').addEventListener('mousedown', function (e) {
+    isDragging = true;
+    dragStartY = e.clientY;
+    dragStartSlice = currentSlice;
+  });
+
+  window.addEventListener('mousemove', function (e) {
+    if (!isDragging) return;
+    const dy = e.clientY - dragStartY;
+    const delta = -Math.round(dy / DRAG_SENSITIVITY);
+    setSlice(dragStartSlice + delta);
+  });
+
+  window.addEventListener('mouseup', function () {
+    isDragging = false;
+  });
+
+  // ── Input: progress bar click/drag ────────────────────────────────────────
+  function seekFromEvent(e) {
+    const rect = sliceProgress.getBoundingClientRect();
+    const x = Math.max(0, Math.min(e.clientX - rect.left, rect.width));
+    const frac = x / rect.width;
+    const total = CASES[currentCase].total;
+    setSlice(Math.round(frac * (total - 1)));
+  }
+
+  sliceProgress.addEventListener('mousedown', function (e) {
+    isProgressDragging = true;
+    seekFromEvent(e);
+    e.stopPropagation();
+  });
+
+  window.addEventListener('mousemove', function (e) {
+    if (!isProgressDragging) return;
+    seekFromEvent(e);
+  });
+
+  window.addEventListener('mouseup', function () {
+    isProgressDragging = false;
+  });
+
+  // ── Input: keyboard ───────────────────────────────────────────────────────
+  window.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      setSlice(currentSlice + 1);
+    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      setSlice(currentSlice - 1);
+    } else if (e.key === 'PageDown') {
+      e.preventDefault();
+      setSlice(currentSlice + 10);
+    } else if (e.key === 'PageUp') {
+      e.preventDefault();
+      setSlice(currentSlice - 10);
+    } else if (e.key === 'Home') {
+      e.preventDefault();
+      setSlice(0);
+    } else if (e.key === 'End') {
+      e.preventDefault();
+      setSlice(CASES[currentCase].total - 1);
+    }
+  });
+
+  // ── Controls: windowing ───────────────────────────────────────────────────
+  brightnessInput.addEventListener('input', function () {
+    filterBrightness = parseInt(this.value, 10);
+    brightnessVal.textContent = (filterBrightness >= 0 ? '+' : '') + filterBrightness;
+    setFilter();
+  });
+
+  contrastInput.addEventListener('input', function () {
+    filterContrast = parseInt(this.value, 10);
+    contrastVal.textContent = filterContrast + '%';
+    setFilter();
+  });
+
+  invertInput.addEventListener('input', function () {
+    filterInvert = parseInt(this.value, 10);
+    invertVal.textContent = filterInvert + '%';
+    setFilter();
+  });
+
+  document.getElementById('reset-btn').addEventListener('click', function () {
+    filterBrightness = 0;
+    filterContrast = 100;
+    filterInvert = 0;
+    brightnessInput.value = 0;
+    contrastInput.value = 100;
+    invertInput.value = 0;
+    brightnessVal.textContent = '0';
+    contrastVal.textContent = '100%';
+    invertVal.textContent = '0%';
+    setFilter();
+  });
+
+  // ── Tab buttons ───────────────────────────────────────────────────────────
+  document.querySelectorAll('.tab-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      switchCase(btn.dataset.case);
+    });
+  });
+
+  // ── Init ──────────────────────────────────────────────────────────────────
+  resizeCanvas();
+  setFilter();
+  switchCase('herniation');
+
+})();
+</script>
+</body>
+</html>

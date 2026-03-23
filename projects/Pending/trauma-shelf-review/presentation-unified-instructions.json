@@ -1,0 +1,186 @@
+{
+  "1": {
+    "title": "Trauma for the Shelf: Every Topic in 45 Minutes",
+    "instruction": "Full-bleed trauma bay hero image, white title 48pt centered, presenter name 24pt below, no bullets, dramatic cinematic lighting"
+  },
+  "2": {
+    "title": "Eight Objectives Across Ten Trauma Domains Cover the Entire Shelf",
+    "instruction": "Solid dark bg, numbered list 24pt, no images, 8 items max"
+  },
+  "3": {
+    "title": "The xABCDE Sequence Mandates Hemorrhage Control Before Airway Assessment",
+    "instruction": "Table dominates 70%, key row X highlighted in red accent, title = assertion, Bottom Line box"
+  },
+  "4": {
+    "title": "Class III-IV Hemorrhagic Shock Requires Blood Products, Not Crystalloid Alone",
+    "instruction": "Table dominates 70%, Class III-IV rows highlighted red accent, full ATLS data, Bottom Line box"
+  },
+  "5": {
+    "title": "Shock Index Greater Than 1.0 Triggers MTP and PROPPR 1:1:1 Saves Lives",
+    "instruction": "Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "6": {
+    "title": "TXA Before Three Hours Saves Lives but After Three Hours Increases Mortality",
+    "instruction": "Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "7": {
+    "title": "Clinical Decision Point",
+    "instruction": "Question 24pt, options A-D clean list, no answer shown, interactive feel, blue accent"
+  },
+  "8": {
+    "title": "Answer: B -- Control Hemorrhage First Because X Precedes A in xABCDE",
+    "instruction": "Dark bg, correct answer B highlighted in green accent, brief explanation with evidence"
+  },
+  "9": {
+    "title": "Biconvex CT Means Epidural; Crescent Means Subdural -- Distinct Populations and Prognosis",
+    "instruction": "Table dominates 70%, key diagnostic rows highlighted accent, title = assertion, Bottom Line box"
+  },
+  "10": {
+    "title": "Uncal Herniation Produces Ipsilateral Blown Pupil While Cushing Triad Signals Imminent Death",
+    "instruction": "Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "11": {
+    "title": "BTF Guidelines Tier ICP Management From Conservative to Craniectomy",
+    "instruction": "Table dominates 70%, Tier 3 row highlighted red accent, progressive escalation, Bottom Line box"
+  },
+  "12": {
+    "title": "Hypotension Doubles TBI Mortality Because Monroe-Kellie Demands Adequate MAP",
+    "instruction": "Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "13": {
+    "title": "Clinical Decision Point",
+    "instruction": "Question 24pt, options A-D clean list, no answer shown, interactive feel, blue accent"
+  },
+  "14": {
+    "title": "Answer: C -- Biconvex Hematoma With Shift and Herniation Requires Emergent Craniotomy",
+    "instruction": "Dark bg, correct answer C highlighted in green accent, brief explanation with evidence"
+  },
+  "15": {
+    "title": "Four Spinal Cord Syndromes Have Distinct Motor-Sensory Patterns That Predict Recovery",
+    "instruction": "Table dominates 70%, key diagnostic patterns highlighted accent, title = assertion, Bottom Line box"
+  },
+  "16": {
+    "title": "Canadian C-Spine Rule Is More Specific Than NEXUS for Clearing the Cervical Spine",
+    "instruction": "Table dominates 70%, specificity difference highlighted accent, title = assertion, Bottom Line box"
+  },
+  "17": {
+    "title": "Neurogenic Shock Produces Bradycardia Plus Hypotension -- Norepinephrine Is First-Line",
+    "instruction": "Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "18": {
+    "title": "Clinical Decision Point",
+    "instruction": "Question 24pt, options A-D clean list, no answer shown, interactive feel, blue accent"
+  },
+  "19": {
+    "title": "Answer: B -- Bradycardia Distinguishes Neurogenic From Hemorrhagic Shock",
+    "instruction": "Dark bg, correct answer B highlighted in green accent, brief explanation with evidence"
+  },
+  "20": {
+    "title": "Burn Depth Determines Healing Capacity -- Full Thickness Burns Are Painless",
+    "instruction": "Table dominates 70%, full-thickness row highlighted accent, title = assertion, Bottom Line box"
+  },
+  "21": {
+    "title": "Calculate Parkland Formula From Burn Time Not Arrival and Use Rule of Nines for TBSA",
+    "instruction": "Table dominates 70%, Rule of Nines values highlighted, title = assertion, Bottom Line box"
+  },
+  "22": {
+    "title": "Enclosed Fire Plus Carbonaceous Sputum Mandates Intubation for Inhalation Injury",
+    "instruction": "Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "23": {
+    "title": "Escharotomy Relieves Circumferential Burns While Electrical Burns Cause Hidden Deep Damage",
+    "instruction": "Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "24": {
+    "title": "Clinical Decision Point",
+    "instruction": "Question 24pt, options A-D clean list, no answer shown, interactive feel, blue accent"
+  },
+  "25": {
+    "title": "Answer: B -- 5120 mL Delivered in Remaining 6 Hours Because Clock Starts at Burn Time",
+    "instruction": "Dark bg, correct answer B highlighted in green accent, calculation walkthrough"
+  },
+  "26": {
+    "title": "Massive Hemothorax Draining Over 1500 mL Mandates Thoracotomy Not Continued Drainage",
+    "instruction": "Table dominates 70%, massive threshold row highlighted red accent, title = assertion, Bottom Line box"
+  },
+  "27": {
+    "title": "Aortic Injury Occurs at the Isthmus and Widened Mediastinum Demands CTA",
+    "instruction": "Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "28": {
+    "title": "EDT Survival Is 15% for Penetrating Cardiac Injury and Tamponade Differs From PTX by Breath Sounds",
+    "instruction": "Table dominates 70%, survival rates highlighted, title = assertion, Bottom Line box"
+  },
+  "29": {
+    "title": "Clinical Decision Point",
+    "instruction": "Question 24pt, options A-D clean list, no answer shown, interactive feel, blue accent"
+  },
+  "30": {
+    "title": "Answer: B -- Absent Breath Sounds Plus Tracheal Deviation Equals Tension PTX, Not Tamponade",
+    "instruction": "Dark bg, correct answer B highlighted in green accent, brief explanation with evidence"
+  },
+  "31": {
+    "title": "Positive FAST Plus Unstable Equals Laparotomy -- Splenic NOM Succeeds in 85% of Stable Patients",
+    "instruction": "Table dominates 70%, FAST+ unstable row highlighted red accent, title = assertion, Bottom Line box"
+  },
+  "32": {
+    "title": "Gunshot Wounds Mandate Laparotomy While Stab Wounds Allow Selective Management",
+    "instruction": "Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "33": {
+    "title": "Neck Zones and Retroperitoneal Zones Each Have Specific Exploration Rules",
+    "instruction": "Table dominates 70%, hard signs row highlighted red, title = assertion, Bottom Line box"
+  },
+  "34": {
+    "title": "Clinical Decision Point",
+    "instruction": "Question 24pt, options A-D clean list, no answer shown, interactive feel, blue accent"
+  },
+  "35": {
+    "title": "Answer: C -- FAST Positive Plus Hemodynamically Unstable Equals Immediate Laparotomy",
+    "instruction": "Dark bg, correct answer C highlighted in green accent, brief explanation with evidence"
+  },
+  "36": {
+    "title": "Pelvic Fracture Algorithm Prioritizes Laparotomy Over Angio When FAST Is Positive",
+    "instruction": "Table dominates 70%, APC/VS rows highlighted red, binder algorithm, Bottom Line box"
+  },
+  "37": {
+    "title": "Compartment Syndrome Has a Six-Hour Window and Passive Stretch Is the Earliest Sign",
+    "instruction": "Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "38": {
+    "title": "Gustilo IIIC Open Fractures Require Vascular Repair and Fat Embolism Presents 24-72 Hours Post-Fracture",
+    "instruction": "Table dominates 70%, IIIC row highlighted red, title = assertion, Bottom Line box"
+  },
+  "39": {
+    "title": "Clinical Decision Point",
+    "instruction": "Question 24pt, options A-D clean list, no answer shown, interactive feel, blue accent"
+  },
+  "40": {
+    "title": "Answer: B -- Life Before Limb Mandates Laparotomy First When the Abdomen Is the Life Threat",
+    "instruction": "Dark bg, correct answer B highlighted in green accent, brief explanation with evidence"
+  },
+  "41": {
+    "title": "Damage Control Surgery Uses Three Phases When the Lethal Triad Is Present",
+    "instruction": "Dark bg, assertion title 28pt bold, 3-4 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box"
+  },
+  "42": {
+    "title": "Pediatric, Geriatric, and Pregnancy Trauma Each Require Specific Management Modifications",
+    "instruction": "Table dominates 70%, NAT row highlighted red, title = assertion, Bottom Line box"
+  },
+  "43": {
+    "title": "Clinical Decision Point",
+    "instruction": "Question 24pt, options A-D clean list, no answer shown, interactive feel, blue accent"
+  },
+  "44": {
+    "title": "Answer: B -- Bilateral Subdurals Plus Retinal Hemorrhages Plus Inconsistent History Equals NAT",
+    "instruction": "Dark bg, correct answer B highlighted in green accent, brief explanation with evidence"
+  },
+  "45": {
+    "title": "Ten Topics, Ten Discriminators -- The Complete Shelf Cheat Sheet",
+    "instruction": "Large numbered list 28pt, bold key phrase per item, clean dark bg, 10 items for comprehensive review"
+  },
+  "46": {
+    "title": "References",
+    "instruction": "2-column small text 12pt, no images, dense but clean, dark bg"
+  }
+}
