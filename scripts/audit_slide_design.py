@@ -5,7 +5,7 @@ audit_slide_design.py — Evaluate presentation quality against design principle
 Usage:
     python3 scripts/audit_slide_design.py <file.md> [--strict] [--json]
 
-Runs 8 design checks per card against type-specific thresholds.
+Runs 13 design checks (D1-D13) per card against type-specific thresholds.
 """
 
 import argparse

@@ -131,7 +131,9 @@ def _load_profile_directives() -> tuple[dict[str, str], dict[str, str]]:
         slide_directives = profile_data.get("slideTypeDirectives", {})
         type_image_styles = profile_data.get("typeImageStyles", {})
         return slide_directives, type_image_styles
-    except Exception:
+    except Exception as e:
+        import sys
+        print(f"WARNING: Failed to load medical profile directives: {e}", file=sys.stderr)
         return {}, {}
 
 

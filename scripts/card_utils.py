@@ -36,12 +36,32 @@ def split_cards(content: str) -> list[str]:
     return re.split(r'\n---\n', content)
 
 
+_VALID_DECLARATIVE_TYPES = frozenset({
+    "Title", "Disclosures", "Learning Objectives", "Case", "Content",
+    "Data/Table", "Trial", "Guideline", "MCQ", "Take-Home", "References", "Q&A",
+})
+
+
 def classify_card(card: str, index: int, total: int, presenter: str = "") -> str:
     """Classify a card by type using content heuristics.
 
     Returns one of: Title, Disclosures, Learning Objectives, Case, Data/Table,
     MCQ, Content, References, Q&A, Take-Home, Guideline, Trial
+
+    Declarative typing: if the card contains ``<!-- type: TYPE -->`` in its
+    first three lines and TYPE is a recognised card type, that type is returned
+    immediately (skipping all heuristics).
     """
+    # --- Declarative type override (checked before any heuristics) ---
+    for line in card.split('\n')[:3]:
+        m = re.match(r'<!--\s*type:\s*(.+?)\s*-->', line.strip())
+        if m:
+            declared = m.group(1)
+            if declared in _VALID_DECLARATIVE_TYPES:
+                return declared
+            # Unknown type: fall through to heuristics
+            break
+
     text = card.strip()
     lower = text.lower()
 

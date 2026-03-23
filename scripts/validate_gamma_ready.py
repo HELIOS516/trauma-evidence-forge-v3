@@ -5,7 +5,7 @@ validate_gamma_ready.py — Pre-submission quality gate for Gamma-ready markdown
 Usage:
     python3 scripts/validate_gamma_ready.py <file.md>
 
-Runs a 17-numbered validation report on a gamma-ready markdown file before Gamma API submission:
+Runs a 19-numbered validation report on a gamma-ready markdown file before Gamma API submission:
   - 11 hard pass/fail gates (reported as pass/fail summary)
   - 5 soft design checks (reported as WARN, not counted as failures)
   - Card count as informational check #6
