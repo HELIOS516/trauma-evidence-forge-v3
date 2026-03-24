@@ -36,15 +36,14 @@ The single unifying principle across every trauma question on the shelf: stabili
 
 **Gamma instruction: Solid dark bg, numbered list 24pt, no images, 8 items max**
 
-1. **Sequence** the xABCDE primary survey and identify when to intervene before imaging
-2. **Classify** hemorrhagic shock (I-IV) and activate massive transfusion by Shock Index
-3. **Distinguish** epidural from subdural hematoma by CT morphology and clinical history
-4. **Identify** four spinal cord syndromes by motor/sensory pattern
-5. **Calculate** Parkland resuscitation from burn time and estimate TBSA by Rule of Nines
-6. **Differentiate** tension pneumothorax from cardiac tamponade at the bedside
-7. **Apply** FAST-based decision algorithms for blunt and penetrating abdominal trauma
-8. **Recognize** damage control triggers and special population modifications (peds, geri, pregnancy)
-
+1. **Sequence** xABCDE — intervene before imaging
+2. **Classify** shock I-IV — MTP by Shock Index
+3. **Distinguish** epidural vs subdural by CT shape
+4. **Identify** cord syndromes by deficit pattern
+5. **Calculate** Parkland from burn time + Rule of Nines
+6. **Differentiate** tension PTX vs tamponade at bedside
+7. **Apply** FAST algorithms — blunt vs penetrating
+8. **Recognize** DCS triggers + peds/geri/pregnancy mods
 
 **Sources:**
 - [1] American 2018
@@ -68,17 +67,16 @@ We will use 5 MCQ checkpoints to test your application of each section. Treat th
 
 **Gamma instruction: Table dominates 70%, key row X highlighted in red accent, title = assertion, Bottom Line box**
 
-| Step | Target | Immediate Intervention | Shelf Trap |
-|------|--------|----------------------|------------|
-| **X** | **Exsanguinating hemorrhage** | **Direct pressure, tourniquet, MTP** | Skipping to airway |
-| **A** | Airway + C-spine | Intubation (GCS <=8), surgical airway | Forgetting C-spine |
-| **B** | Breathing | Needle decompression, chest tube | Waiting for CXR |
-| **C** | Circulation | 2 large-bore IVs, FAST, blood products | Giving 2L NS first |
-| **D** | Disability | GCS, pupils, lateralizing signs | Skipping motor exam |
-| **E** | Exposure | Log-roll, warm blankets | Missing posterior wounds |
+| Step | Intervention |
+|------|-------------|
+| **X** | **Tourniquet, pressure, MTP** |
+| **A** | Intubate if GCS ≤8 |
+| **B** | Needle decompress |
+| **C** | FAST, blood products |
+| **D** | GCS + pupils |
+| **E** | Log-roll, warm |
 
-- **[KEY STAT:]** Unstable patient offered CT -- intervention is always the answer
-- **6 immediately life-threatening injuries** diagnosed clinically, treated before imaging
+**[KEY STAT: Unstable + CT offered = CT is always wrong]**
 
 > **Bottom Line:** Unstable patient offered CT -- answer is intervention first, not imaging
 
@@ -105,18 +103,14 @@ The shelf trap is always the same: offering CT scan as an answer choice for an u
 
 **Gamma instruction: Table dominates 70%, Class III-IV rows highlighted red accent, full ATLS data, Bottom Line box**
 
-| Parameter | Class I | Class II | Class III | Class IV |
-|-----------|---------|----------|-----------|----------|
-| **Blood loss** | <15% (<750 mL) | 15-30% (750-1500) | 30-40% (1500-2000) | >40% (>2000) |
-| **Heart rate** | <100 | 100-120 | >120 | >140 |
-| **Blood pressure** | Normal | Normal | Decreased | Very low |
-| **Respiratory rate** | 14-20 | 20-30 | 30-40 | >35 |
-| **Mental status** | Slightly anxious | Mildly anxious | Confused | Obtunded |
-| **Urine output** | >30 mL/hr | 20-30 mL/hr | 5-15 mL/hr | Negligible |
-| **Fluid replacement** | Crystalloid | Crystalloid | Crystalloid + blood | MTP (1:1:1) |
+| | Class I | Class II | **Class III** | **Class IV** |
+|---|---------|----------|-----------|----------|
+| **Blood loss** | <15% | 15-30% | **30-40%** | **>40%** |
+| **HR** | <100 | 100-120 | **>120** | **>140** |
+| **BP** | Normal | Normal | **↓** | **↓↓** |
+| **Rx** | Monitor | Crystalloid | **Blood** | **MTP 1:1:1** |
 
-- **[KEY STAT:]** BP does not drop until >30% blood volume is lost
-- Young patients compensate then crash -- normal BP does NOT exclude hemorrhage
+**[KEY STAT: BP doesn't drop until 30% lost — don't trust normal BP]**
 
 > **Bottom Line:** HR 130, BP 80 -- answer is blood products, not 2L NS
 
@@ -146,10 +140,11 @@ Base deficit and lactate are better markers of shock severity than vital signs a
 
 **Gamma instruction: Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box**
 
-- **Shock Index (HR/SBP):** >1.0 = hemorrhage; >1.4 = MTP
-- **PROPPR trial:** 1:1:1 (pRBC:FFP:platelets) reduces 24h exsanguination deaths
-- **Lethal Triad:** Hypothermia + acidosis + coagulopathy = mutually reinforcing death spiral
-- **[KEY STAT:]** ABC score >=2 (penetrating + SBP <=90 + HR >=120 + FAST+) activates MTP
+- **SI >1.0** = hemorrhage; **>1.4** = MTP
+- **1:1:1** pRBC:FFP:platelets (PROPPR)
+- **ABC ≥2** activates MTP
+
+**[KEY STAT: SI = HR ÷ SBP; >1.0 = 4x mortality]**
 
 > **Bottom Line:** Shock Index >1.0 -- answer is MTP, not crystalloid
 
@@ -180,10 +175,11 @@ Permissive hypotension targets SBP 80-90 until surgical hemorrhage control -- bu
 
 **Gamma instruction: Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box**
 
-- **CRASH-2 trial:** 1g TXA IV bolus then 1g over 8h
-- **Mortality reduction:** 1.5% absolute decrease when given <3 hours
-- **Time-dependent harm:** >3h post-injury increases bleeding death risk
-- **[KEY STAT:]** 3-hour cutoff is an absolute contraindication boundary
+- **<3 hours** = give TXA (1g bolus + 1g/8h)
+- **>3 hours** = withhold (increases mortality)
+- **CRASH-2:** n=20,211; 1.5% absolute reduction
+
+**[KEY STAT: 3-hour cutoff — benefit before, harm after]**
 
 > **Bottom Line:** 2h post-injury -- give TXA; 4h post -- withhold
 
@@ -237,10 +233,12 @@ The key teaching point is that X comes before A in the updated sequence. Even th
 
 **Gamma instruction: Dark bg, correct answer B highlighted in green accent, brief explanation with evidence**
 
-- **Why B:** Active hemorrhage = X step; direct pressure + MTP controls exsanguination
-- **Why not A:** GCS 7 needs intubation, but X precedes A in sequence
-- **Why not C:** Absent BS needs decompression, but B step follows X and A
-- **Why not D:** CT in unstable patient is NEVER correct -- classic shelf distractor
+- **Why B:** Active hemorrhage = X step, first priority
+- **Why not A:** GCS ≤8 = intubate, but X before A
+- **Why not C:** Absent BS = B step, follows X and A
+- **Why not D:** CT in unstable = never correct
+
+**[KEY STAT: Tourniquet 15 sec; RSI 3-5 min]**
 
 > **Bottom Line:** Exsanguinating hemorrhage (X) -- address before airway (A)
 
@@ -274,16 +272,15 @@ The teaching pearl: when multiple life threats coexist, the xABCDE sequence tell
 ![EDH vs SDH CT comparison](images/01_edh_vs_sdh_lemon_banana.jpg)
 ![Subdural hematoma CT with annotations](images/02_subdural_ct_annotated.jpg)
 
-| Feature | Epidural (EDH) | Subdural (SDH) |
-|---------|----------------|-----------------|
-| **Source** | Middle meningeal artery | Bridging veins |
-| **CT shape** | **Biconvex (lens/lemon)** | **Crescent (banana)** |
-| **Classic history** | Lucid interval then rapid decline | Gradual decline or acute |
-| **Population** | Young, temporal bone fracture | Elderly, anticoagulated, alcoholics |
-| **Surgery threshold** | >1 cm or >30 mL or midline shift | >10 mm or >5 mm midline shift |
-| **Prognosis** | Good if early evacuation | 40-60% mortality in acute |
+| Feature | Epidural | Subdural |
+|---------|----------|----------|
+| **Source** | MMA | Bridging veins |
+| **CT** | **Biconvex** | **Crescent** |
+| **History** | Lucid interval | Gradual decline |
+| **Population** | Young, temporal fx | Elderly, anticoag |
+| **OR threshold** | >1cm / >30mL / shift | >10mm / >5mm shift |
 
-- **[KEY STAT:]** EDH with lucid interval + temporal fracture = emergent craniotomy
+**[KEY STAT: Biconvex + lucid interval = epidural]**
 
 > **Bottom Line:** Biconvex on CT -- answer is epidural, not subdural
 
@@ -316,10 +313,11 @@ The shelf will give you a CT description and ask you to identify the lesion and 
 
 ![Subdural hematoma with herniation](images/02_sdh_subduralandherniation.png)
 
-- **Uncal (transtentorial):** CN III palsy = ipsilateral fixed dilated pupil, contralateral hemiparesis
-- **Central:** Bilateral small then fixed pupils, decorticate to decerebrate progression
-- **Cushing triad:** HTN + bradycardia + irregular respirations = brainstem compression
-- **[KEY STAT:]** Unilateral fixed dilated pupil = uncal herniation until proven otherwise
+- **Uncal** — CN III → ipsilateral blown pupil
+- **Central** — bilateral fixed, decerebrate
+- **Cushing triad** — HTN + brady + irregular resp
+
+**[KEY STAT: Cushing triad = minutes to act]**
 
 > **Bottom Line:** Ipsilateral fixed dilated pupil -- answer is uncal herniation, not central
 
@@ -351,14 +349,13 @@ Do not confuse herniation with the Monroe-Kellie doctrine, which explains WHY he
 
 **Gamma instruction: Table dominates 70%, Tier 3 row highlighted red accent, progressive escalation, Bottom Line box**
 
-| Tier | Interventions | ICP Target | Escalation Trigger |
-|------|--------------|------------|-------------------|
-| **Tier 1** | HOB 30 degrees, sedation, normocapnia (PaCO2 35-40), CSF drainage | <22 mmHg | Failure to respond in 15-30 min |
-| **Tier 2** | Hypertonic saline (23.4%) or mannitol (0.25-1 g/kg), mild hyperventilation (PaCO2 30-35) | <22 mmHg | Refractory to Tier 1 |
-| **Tier 3** | **Decompressive craniectomy**, pentobarbital coma | <22 mmHg | Refractory to Tier 2 |
+| Tier | Interventions | Target |
+|------|--------------|--------|
+| **1** | HOB 30°, sedation, CSF drain | ICP <22 |
+| **2** | HTS 23.4% / mannitol | CPP 60-70 |
+| **3** | Craniectomy, barb coma | Refractory |
 
-- **CPP target:** 60-70 mmHg (CPP = MAP - ICP)
-- **[KEY STAT:]** ICP threshold changed from 20 to 22 mmHg in BTF 4th Edition
+**[KEY STAT: ICP threshold <22 (BTF 4th Ed)]**
 
 > **Bottom Line:** Refractory ICP despite osmotherapy -- answer is craniectomy, not more mannitol
 
@@ -389,10 +386,12 @@ The CPP target of 60-70 mmHg is calculated as MAP minus ICP. This is why hypoten
 
 **Gamma instruction: Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box**
 
-- **SBP <90 doubles TBI mortality** -- maintain MAP for CPP 60-70
-- **Monroe-Kellie:** Brain + blood + CSF in fixed skull; small volume change = exponential ICP rise
-- **Avoid hyperventilation:** Cerebral vasoconstriction causes ischemia (only as emergency bridge)
-- **[KEY STAT:]** Hypotension is the #1 preventable cause of secondary brain injury
+- **SBP <90** → doubles TBI mortality
+- **SpO2 <90** → independently worsens outcome
+- **Monroe-Kellie** — fixed box: brain + blood + CSF
+- **No routine hyperventilation** — bridge only
+
+**[KEY STAT: Single SBP <90 episode = 2x mortality]**
 
 > **Bottom Line:** TBI + BP 85/50 -- answer is raise MAP, not hyperventilate
 
@@ -445,10 +444,12 @@ Consider each option: Is there time for conservative management? What does the m
 
 **Gamma instruction: Dark bg, correct answer C highlighted in green accent, brief explanation with evidence**
 
-- **Why C:** Biconvex = EDH from MMA; 8 mm shift + blown pupil = OR now
-- **Why not A:** Osmotherapy delays definitive surgery in active herniation
-- **Why not B:** EVD monitoring is Tier 1; this patient has FAILED conservative management
-- **Why not D:** Aggressive hyperventilation (PaCO2 25) causes ischemia; only a bridge
+- **Why C:** Biconvex + shift + blown pupil = OR now
+- **Why not A:** HTS is bridge, not definitive for surgical lesion
+- **Why not B:** EVD for diffuse injury, not surgical mass
+- **Why not D:** PaCO2 25 causes ischemia; bridge only
+
+**[KEY STAT: EDH prognosis good if evacuated early]**
 
 > **Bottom Line:** Epidural + midline shift + blown pupil = emergent craniotomy
 
@@ -482,14 +483,14 @@ The prognosis for epidural hematoma with early evacuation is good -- this is one
 
 **Gamma instruction: Table dominates 70%, key diagnostic patterns highlighted accent, title = assertion, Bottom Line box**
 
-| Syndrome | Mechanism | Deficit (Lost) | Preserved | Recovery |
-|----------|-----------|----------------|-----------|----------|
-| **Anterior cord** | Burst fracture, aortic injury | Motor, pain, temperature | Proprioception, vibration | Poor |
-| **Central cord** | Hyperextension in elderly | Arms >> legs (cape pattern) | Sacral sensation, legs | Best prognosis |
-| **Brown-Sequard** | Hemisection (penetrating) | Ipsi motor + proprioception; contra pain/temp | Contralateral motor | Good |
-| **Cauda equina** | L1-L2+ compression | Saddle anesthesia, bowel/bladder, LMN | Variable | Surgical emergency |
+| Syndrome | Mechanism | Lost | Preserved |
+|----------|-----------|------|-----------|
+| **Anterior** | Burst fx / aortic | Motor, pain, temp | Proprio, vibration |
+| **Central** | Hyperextension (elderly) | Arms >> legs | Sacral sensation |
+| **Brown-Sequard** | Hemisection (penetrating) | Ipsi motor; contra pain | Opposite modalities |
+| **Cauda equina** | L1-L2 compression | Saddle, bowel/bladder | **Surgical emergency** |
 
-- **[KEY STAT:]** Central cord is the most common incomplete SCI -- arms worse than legs in elderly after fall
+**[KEY STAT: Central cord = most common incomplete SCI]**
 
 > **Bottom Line:** Arms worse than legs in elderly -- answer is central cord, not anterior
 
@@ -520,16 +521,14 @@ Cauda equina syndrome involves compression of the nerve roots below the conus me
 
 **Gamma instruction: Table dominates 70%, specificity difference highlighted accent, title = assertion, Bottom Line box**
 
-| Feature | NEXUS | Canadian C-Spine Rule (CCR) |
-|---------|-------|-----------------------------|
-| **Sensitivity** | 99.6% | 99.4% (some studies 100%) |
-| **Specificity** | 12.9% | 45.1% |
-| **Criteria** | 5 low-risk (no tenderness, no intoxication, GCS 15, no focal deficit, no distraction) | 3-step algorithm (high-risk, low-risk, ROM) |
-| **Advantage** | Simple, quick | Fewer unnecessary CTs |
-| **Limitation** | Over-images | Requires alert, stable, age >=16 |
+| Feature | NEXUS | CCR |
+|---------|-------|-----|
+| **Sensitivity** | 99.6% | 99.4-100% |
+| **Specificity** | 12.9% | **45.1%** |
+| **Criteria** | 5 low-risk | 3-step algorithm |
+| **Obtunded** | CT alone (NPV >99%) | CT alone (NPV >99%) |
 
-- **Obtunded patient:** CT alone sufficient to clear (EAST guideline, NPV >99%)
-- **[KEY STAT:]** CCR is 3.5x more specific than NEXUS -- reduces unnecessary imaging
+**[KEY STAT: CCR 3.5x more specific — fewer unnecessary CTs]**
 
 > **Bottom Line:** Alert stable trauma -- answer is apply CCR, not automatic CT
 
@@ -561,10 +560,11 @@ The shelf question pattern is typically: alert, stable trauma patient with neck 
 
 **Gamma instruction: Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box**
 
-- **Triad:** Hypotension + bradycardia + warm vasodilated extremities
-- **Mechanism:** Loss of sympathetic tone below T6 = unopposed vagal activity
-- **Treatment:** Norepinephrine first-line, MAP >85 mmHg x 7 days
-- **[KEY STAT:]** Bradycardia distinguishes neurogenic from hemorrhagic shock (which has tachycardia)
+- **Triad:** hypotension + bradycardia + warm
+- **Mechanism:** loss of sympathetic tone above T6
+- **Rx:** norepinephrine first-line, MAP >85 x 7d
+
+**[KEY STAT: Brady = neurogenic; tachy = hemorrhagic]**
 
 > **Bottom Line:** Hypotension + bradycardia + warm -- answer is neurogenic, not hypovolemic
 
@@ -616,10 +616,12 @@ This question presents the classic neurogenic shock triad: hypotension, bradycar
 
 **Gamma instruction: Dark bg, correct answer B highlighted in green accent, brief explanation with evidence**
 
-- **Why B:** Bradycardia + hypotension + warm = neurogenic; NE provides alpha vasoconstriction + beta chronotropy
-- **Why not A:** Tachycardia expected in hemorrhagic shock; HR 52 points to neurogenic
-- **Why not C:** NASCIS steroids NOT recommended by current AANS/CNS guidelines
-- **Why not D:** Hemodynamic stabilization takes priority over imaging
+- **Why B:** NE = alpha-1 + beta-1 (vasoconstriction + chronotropy)
+- **Why not A:** Phenylephrine = pure alpha, worsens brady
+- **Why not C:** NASCIS steroids NOT recommended (AANS/CNS)
+- **Why not D:** Stabilize before imaging
+
+**[KEY STAT: NE addresses both vasodilation and bradycardia]**
 
 > **Bottom Line:** Spinal injury + bradycardia + hypotension = neurogenic shock; give norepinephrine
 
@@ -654,15 +656,15 @@ Norepinephrine is first-line because it provides both alpha-1 vasoconstriction (
 
 ![Burn depth classification diagram](images/10_burn_degree_diagram.svg)
 
-| Depth | Appearance | Sensation | Blanching | Healing |
-|-------|------------|-----------|-----------|---------|
-| **Superficial** | Red, dry, no blisters | Painful | Yes | 3-5 days, no scar |
-| **Superficial partial** | Pink, moist, blisters | Very painful | Yes | 2-3 weeks, minimal scar |
-| **Deep partial** | White/red mottled | Reduced pain | Decreased | 3-8 weeks, likely scarring |
-| **Full thickness** | **White/brown/leathery** | **Painless** | **No** | **No spontaneous healing -- graft required** |
-| **Subdermal (4th)** | Charred, muscle/bone | Painless | No | Excision/amputation |
+| Depth | Appearance | Sensation | Healing |
+|-------|------------|-----------|---------|
+| **Superficial** | Red, dry | Painful | 3-5 days |
+| **Partial** | Pink, blisters | Very painful | 2-3 wk |
+| **Deep partial** | Mottled | Reduced | 3-8 wk, scars |
+| **Full thickness** | **Leathery** | **PAINLESS** | **Graft required** |
+| **Subdermal** | Charred | Painless | Excision |
 
-- **[KEY STAT:]** Painless burn = full thickness (nerve destruction) -- the classic shelf trick
+**[KEY STAT: Painless burn = full thickness (nerves destroyed)]**
 
 > **Bottom Line:** Painless leathery wound -- answer is full thickness, not deep partial
 
@@ -699,18 +701,16 @@ The shelf question is typically: "a patient has a leathery, painless burn." The 
 
 ![Rule of Nines body diagram](images/11_rule_of_nines.svg)
 
-| Region | Adult % TBSA | Pediatric % TBSA |
-|--------|-------------|-----------------|
-| Head | 9% | 18% |
-| Each arm | 9% | 9% |
-| Anterior trunk | 18% | 18% |
-| Posterior trunk | 18% | 18% |
-| Each leg | 18% | 14% |
-| Perineum | 1% | 1% |
+| Region | Adult | Pediatric |
+|--------|-------|-----------|
+| **Head** | 9% | **18%** |
+| **Each arm** | 9% | 9% |
+| **Trunk (ant/post)** | 18% / 18% | 18% / 18% |
+| **Each leg** | 18% | **14%** |
 
-- **Parkland:** 4 mL x kg x %TBSA = 24h total (LR); half in first 8h FROM BURN TIME
-- **Urine target:** 0.5-1 mL/kg/hr (adults), 1-2 mL/kg/hr (children)
-- **[KEY STAT:]** Over-resuscitation causes abdominal compartment syndrome
+- **Parkland:** 4 × kg × %TBSA; half in first 8h FROM BURN TIME
+
+**[KEY STAT: Clock starts at burn, not arrival]**
 
 > **Bottom Line:** Calculate from 1400 burn time, not 1600 arrival
 
@@ -744,10 +744,11 @@ Remember: superficial (first-degree) burns are NOT included in TBSA calculations
 
 **Gamma instruction: Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box**
 
-- **Suspect when:** Enclosed fire, facial burns, singed nasal hairs, carbonaceous sputum, hoarse voice
-- **CO poisoning:** 100% O2 reduces CO half-life from 250 min to 40-60 min; COHb >20% = significant
-- **Cyanide:** Refractory lactic acidosis despite adequate O2 = hydroxocobalamin
-- **[KEY STAT:]** Airway edema progresses rapidly -- intubate EARLY, not after obstruction
+- **Suspect:** enclosed fire, singed hairs, carbonaceous sputum
+- **CO:** 100% O2 (half-life 250→40 min)
+- **Cyanide:** refractory lactic acidosis → hydroxocobalamin
+
+**[KEY STAT: Intubate early — edema progresses rapidly]**
 
 > **Bottom Line:** Enclosed fire + carbonaceous sputum -- answer is intubate, not observe
 
@@ -776,10 +777,11 @@ Cyanide poisoning should be suspected in fire victims with refractory lactic aci
 
 **Gamma instruction: Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box**
 
-- **Escharotomy:** Mid-axial incision through eschar only (NOT fascia) for circumferential burns
-- **Chest escharotomy:** Required when circumferential chest burn restricts ventilation
-- **Electrical burns:** Damage >> surface appearance; cardiac monitoring, rhabdomyolysis, compartment syndrome
-- **[KEY STAT:]** Escharotomy cuts through eschar ONLY -- fasciotomy cuts through fascia (different procedure)
+- **Escharotomy:** incise eschar only (NOT fascia)
+- **Indication:** circumferential burn + vascular compromise
+- **Electrical:** damage >> surface; cardiac monitoring + rhabdo
+
+**[KEY STAT: Escharotomy ≠ fasciotomy — different procedures]**
 
 > **Bottom Line:** Circumferential burn + absent pulses -- answer is escharotomy, not fasciotomy
 
@@ -837,10 +839,12 @@ Step 3: The first 8h window is 1400-2200. Patient arrives at 1600. How many hour
 
 **Gamma instruction: Dark bg, correct answer B highlighted in green accent, calculation walkthrough**
 
-- **Why B:** Total = 4 x 80 x 40 = 12,800 mL. First 8h = 6400 mL. 1400-2200 = 8h window. Arrive 1600 = 6h remain. 6400 mL in 6h assuming no prehospital fluid
-- **Why not A:** Underestimates -- does not account for full first-8h allotment
-- **Why not C:** 6400 is the full first-8h allotment, but 2h have already passed
-- **Why not D:** 12,800 is the total 24h volume, not the 6h allotment
+- **Total:** 4 × 80 × 40 = 12,800 mL / 24h
+- **First 8h** (1400-2200): 6,400 mL
+- **Remaining 6h** (1600-2200): ~5,120 mL
+- **Why not C/D:** C = full 8h allotment; D = 24h total
+
+**[KEY STAT: 4 × kg × %TBSA; half by 8h from BURN time]**
 
 > **Bottom Line:** Parkland: 4 x kg x %TBSA; half in first 8h from BURN time
 
@@ -887,15 +891,15 @@ The teaching point remains: always calculate from burn time, not arrival time. T
 ![Hemothorax on CXR](images/05_hemothorax_cxr_plain.jpeg)
 ![Tension pneumothorax annotated](images/04_tension_ptx_annotated.jpeg)
 
-| Condition | Definition | Treatment | Surgical Threshold |
-|-----------|-----------|-----------|-------------------|
-| **Simple hemothorax** | <1500 mL | Chest tube (36 Fr) | Resolved with drainage |
-| **Massive hemothorax** | **>=1500 mL initial OR >200 mL/hr x 2-4h** | **Operative thoracotomy** | Immediate OR |
-| **Retained hemothorax** | Persistent collection post-tube | VATS within 72h | Failed chest tube |
-| **Flail chest** | >=3 ribs fractured in >=2 places | Epidural + vent if needed | Respiratory failure |
-| **Tension PTX** | One-way valve, mediastinal shift | **Needle decompression then tube** | Clinical diagnosis |
+| Condition | Threshold | Action |
+|-----------|----------|--------|
+| **Simple** | <1500 mL | Chest tube |
+| **Massive** | **≥1500 mL or >200 mL/hr** | **Thoracotomy** |
+| **Retained** | Persistent post-tube | VATS 72h |
+| **Flail** | ≥3 ribs, ≥2 places | Epidural + PPV |
+| **Tension PTX** | Clinical diagnosis | **Needle decompress** |
 
-- **[KEY STAT:]** Tension PTX is a CLINICAL diagnosis -- do NOT wait for CXR
+**[KEY STAT: Tension PTX = clinical dx — never wait for CXR]**
 
 > **Bottom Line:** Chest tube drains 1800 mL -- answer is thoracotomy, not observe
 
@@ -929,10 +933,11 @@ Open pneumothorax (sucking chest wound) is treated with a three-sided occlusive 
 
 ![Widened mediastinum on CXR](images/06_widened_mediastinum.jpeg)
 
-- **Mechanism:** Rapid deceleration (high-speed MVC, falls >15 feet)
-- **Location:** Aortic isthmus (just distal to left subclavian, at ligamentum arteriosum)
-- **CXR clues:** Mediastinum >8 cm, left apical cap, NG tube deviation to right
-- **[KEY STAT:]** CT angiography is gold standard -- NOT repeat CXR, NOT aortogram
+- **Mechanism:** deceleration (MVC, falls >15 ft)
+- **Location:** aortic isthmus (distal to L subclavian)
+- **CXR:** mediastinum >8 cm, left apical cap
+
+**[KEY STAT: CTA = gold standard; endovascular preferred]**
 
 > **Bottom Line:** High-speed MVC + wide mediastinum -- answer is CTA, not repeat CXR
 
@@ -965,22 +970,16 @@ Treatment is endovascular repair (TEVAR) in most cases, which has replaced open 
 
 ![Cardiac tamponade on echo](images/08_echo_tamponade.gif)
 
-| EDT Indication | Survival Rate | Go/No-Go |
-|---------------|--------------|----------|
-| Penetrating cardiac (stab) | ~15% | GO if witnessed signs of life <15 min |
-| Penetrating non-cardiac | ~11% | GO if witnessed signs of life <15 min |
-| Blunt trauma | ~1.5% | NO-GO if >5 min CPR or unwitnessed arrest |
+| | **Tamponade** | **Tension PTX** |
+|---|-------------|--------------|
+| **JVD** | Yes | Yes |
+| **Breath sounds** | **Bilateral** | **Absent unilateral** |
+| **Trachea** | Midline | Deviated |
+| **Rx** | Pericardiocentesis | Needle decompress |
 
-| Feature | Cardiac Tamponade | Tension PTX |
-|---------|-------------------|-------------|
-| **JVD** | Present | Present |
-| **Hypotension** | Present | Present |
-| **Breath sounds** | **Bilateral (normal)** | **Absent unilateral** |
-| **Trachea** | Midline | Deviated away |
-| **Diagnosis** | FAST (subxiphoid), echo | Clinical only |
-| **Treatment** | Pericardiocentesis then OR | Needle decompression then tube |
+- **EDT:** penetrating cardiac ~15%; blunt ~1.5%
 
-- **[KEY STAT:]** Beck triad (hypotension + JVD + muffled hearts) = tamponade
+**[KEY STAT: Breath sounds differentiate tamponade from PTX]**
 
 > **Bottom Line:** JVD + hypotension + bilateral BS -- answer is tamponade; absent unilateral BS -- answer is PTX
 
@@ -1035,10 +1034,12 @@ Remember: tamponade has bilateral breath sounds and midline trachea. Tension PTX
 
 **Gamma instruction: Dark bg, correct answer B highlighted in green accent, brief explanation with evidence**
 
-- **Why B:** Absent left BS + tracheal deviation right = tension PTX; decompress immediately
-- **Why not A:** Tamponade has bilateral BS and midline trachea; this is PTX
-- **Why not C:** Tension PTX is a CLINICAL diagnosis; FAST delays treatment
-- **Why not D:** EDT reserved for arrest/peri-arrest; decompress first
+- **Why B:** Absent left BS + tracheal deviation = tension PTX
+- **Why not A:** Tamponade = bilateral BS + midline trachea
+- **Why not C:** Tension PTX = clinical dx; FAST delays Rx
+- **Why not D:** EDT for arrest/peri-arrest, not stable
+
+**[KEY STAT: Absent BS = PTX; bilateral BS = tamponade]**
 
 > **Bottom Line:** Absent unilateral BS + tracheal deviation = tension PTX; needle decompress NOW
 
@@ -1073,17 +1074,17 @@ Note that the stab wound mechanism is a deliberate distractor designed to make y
 
 ![FAST exam Morison's pouch positive](images/07_fast_morrisons_labeled.png)
 
-| Clinical Scenario | FAST | Hemodynamics | Management |
-|-------------------|------|-------------|------------|
-| Blunt trauma | **Positive** | **Unstable** | **Immediate laparotomy** |
-| Blunt trauma | Positive | Stable | CT abdomen/pelvis |
-| Blunt trauma | Negative | Unstable | Repeat FAST, DPL, or CT |
-| Blunt trauma | Negative | Stable | Serial exams, observation |
-| Penetrating (GSW) | Any | Any | Laparotomy (nearly always) |
+| Scenario | Action |
+|----------|--------|
+| **FAST+ unstable** | **Laparotomy** |
+| FAST+ stable | CT |
+| FAST- unstable | Repeat / DPL |
+| FAST- stable | Observe |
 
-- **Splenic NOM:** 85% success grades I-III; vaccinate post-splenectomy (pneumo, meningo, H. flu)
-- **Hepatic NOM:** 92% success grades I-III; angioembolization for grade IV
-- **[KEY STAT:]** FAST sensitivity 73%, specificity 96% -- misses retroperitoneal and hollow viscus
+- **Spleen NOM:** 85% (grade I-III); vaccinate post-splenectomy
+- **Liver NOM:** 92% (grade I-III)
+
+**[KEY STAT: FAST sens 73%, spec 96% — rules in, not out]**
 
 > **Bottom Line:** Positive FAST + hypotension -- answer is laparotomy, not CT
 
@@ -1117,10 +1118,11 @@ The seatbelt sign (ecchymosis across the abdomen in the pattern of a seatbelt) s
 
 **Gamma instruction: Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box**
 
-- **GSW abdomen:** Exploratory laparotomy (nearly always) -- high energy transfer
-- **Stab wound:** Hemodynamically unstable = OR; stable = local wound exploration
-- **Evisceration:** OR regardless of hemodynamic status
-- **[KEY STAT:]** GSW violates peritoneum in >80% of cases; stab in ~50%
+- **GSW abdomen** → exploratory laparotomy
+- **Stab wound:** unstable = OR; stable = explore
+- **Evisceration** → OR regardless
+
+**[KEY STAT: GSW = OR; stab = selective]**
 
 > **Bottom Line:** GSW abdomen -- answer is laparotomy, not CT
 
@@ -1151,20 +1153,20 @@ Do not forget: anterior abdominal wall stab wounds that are clearly superficial 
 
 **Gamma instruction: Table dominates 70%, hard signs row highlighted red, title = assertion, Bottom Line box**
 
-| Neck Zone | Anatomy | Management (Penetrating) |
-|-----------|---------|-------------------------|
-| **Zone I** | Clavicles to cricoid | CTA; vascular structures at risk |
-| **Zone II** | Cricoid to angle of mandible | Selective with CTA (formerly mandatory OR) |
-| **Zone III** | Above angle of mandible | Angiography, IR intervention |
-| **Hard signs (any zone)** | Active hemorrhage, expanding hematoma, air bubbling | **Immediate OR** |
+| Neck Zone | Anatomy | Management |
+|-----------|---------|------------|
+| **I** | Clavicles → cricoid | CTA |
+| **II** | Cricoid → mandible | Selective CTA |
+| **III** | Above mandible | Angiography/IR |
+| **Hard signs** | Any zone | **Immediate OR** |
 
-| Retroperitoneal Zone | Contents | Explore at Laparotomy? |
-|---------------------|----------|----------------------|
-| **Zone 1** (central) | Aorta, IVC, pancreas | **Almost always** (blunt and penetrating) |
-| **Zone 2** (lateral) | Kidneys | Penetrating = yes; blunt = observe if stable |
-| **Zone 3** (pelvic) | Iliac vessels | **Do NOT explore** (opens pelvic tamponade) |
+| Retro Zone | Blunt | Penetrating |
+|-----------|-------|-------------|
+| **1 (central)** | Explore | Explore |
+| **2 (lateral)** | Observe | Explore |
+| **3 (pelvic)** | **NEVER explore** | Explore |
 
-- **[KEY STAT:]** Hard signs in any neck zone = immediate OR, no imaging needed
+**[KEY STAT: Zone 3 blunt = never open (releases tamponade)]**
 
 > **Bottom Line:** Hard signs any zone -- answer is OR; Zone 3 hematoma -- leave it alone
 
@@ -1217,10 +1219,12 @@ Do not be distracted by the mechanism or think about pelvic injury first. The FA
 
 **Gamma instruction: Dark bg, correct answer C highlighted in green accent, brief explanation with evidence**
 
-- **Why C:** FAST+ unstable is the single most reliable indication for emergent laparotomy
-- **Why not A:** CT in unstable patient delays definitive treatment and risks arrest in scanner
-- **Why not B:** Repeating FAST wastes time; positive FAST with instability = OR
-- **Why not D:** Pelvic binder/angio for FAST-negative pelvic fracture bleeding, not FAST+ unstable
+- **Why C:** FAST+ refractory hypotension = surgical hemorrhage
+- **Why not A:** CT needs stability; BP 70/40 = unstable
+- **Why not B:** DPL for equivocal FAST; this is clearly positive
+- **Why not D:** Diagnosis made; repeating delays treatment
+
+**[KEY STAT: FAST+ unstable = OR, no further imaging]**
 
 > **Bottom Line:** FAST positive + unstable = laparotomy; never CT an unstable patient
 
@@ -1254,19 +1258,17 @@ This is perhaps the most important single algorithm on the trauma shelf. If you 
 
 ![Pelvic fracture annotated](images/09_pelvic_annotated.jpeg)
 
-| Fracture Type | Mechanism | Stability | Mortality |
-|--------------|-----------|-----------|-----------|
-| **LC (lateral compression)** | Side-impact MVC | Most common, less vascular | Lower |
-| **APC (open book)** | External rotation | Symphysis diastasis, major bleeding | Moderate |
-| **VS (vertical shear)** | Fall from height | Hemipelvis displaced vertically | **Highest** |
+| Type | Mechanism | Mortality |
+|------|-----------|-----------|
+| **APC** | Head-on MVC | Moderate |
+| **LC** | Side-impact | **Lowest** (most common) |
+| **VS** | Fall from height | **Highest** |
 
-**Unstable Pelvis Algorithm:**
-- Step 1: Pelvic binder (closes the book, reduces volume)
-- Step 2: FAST positive → **Laparotomy** (NOT angio)
-- Step 3: FAST negative + still unstable → Angioembolization or preperitoneal packing
-- **Blood at meatus** → Retrograde urethrogram BEFORE Foley catheter
+- **Binder** at trochanters → then FAST
+- **FAST+ = laparotomy** (not pelvic packing first)
+- **Blood at meatus** = RUG before Foley
 
-- **[KEY STAT:]** Do NOT explore Zone 3 pelvic hematoma at laparotomy -- releases tamponade
+**[KEY STAT: VS = highest mortality; FAST+ = laparotomy first]**
 
 > **Bottom Line:** Unstable pelvis + positive FAST -- answer is laparotomy, not angio
 
@@ -1297,11 +1299,12 @@ Blood at the urethral meatus suggests urethral injury. Perform a retrograde uret
 
 **Gamma instruction: Dark bg, assertion title 28pt bold, 3 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box**
 
-- **Most common:** Tibial shaft fracture, anterior compartment of leg
-- **Earliest finding:** Pain with PASSIVE stretch (not pulselessness -- that is LATE)
-- **Diagnosis:** Clinical; pressure >30 mmHg or delta pressure <30 mmHg (below diastolic)
-- **Treatment:** Emergent 4-compartment fasciotomy within 6 hours
-- **[KEY STAT:]** Irreversible muscle necrosis begins at 6 hours of ischemia
+- **Most common:** tibial shaft (anterior compartment)
+- **Earliest sign:** pain with passive stretch
+- **Latest sign:** pulselessness (don't wait!)
+- **Rx:** emergent 4-compartment fasciotomy
+
+**[KEY STAT: 6-hour window for irreversible damage]**
 
 > **Bottom Line:** Pain with passive stretch -- answer is fasciotomy, not pain meds
 
@@ -1334,19 +1337,17 @@ The time window is approximately 6 hours from onset of ischemia. After 6 hours, 
 
 **Gamma instruction: Table dominates 70%, IIIC row highlighted red, title = assertion, Bottom Line box**
 
-| Gustilo Type | Wound | Key Feature | Antibiotics |
-|-------------|-------|-------------|------------|
-| **I** | <1 cm, clean | Minimal contamination | Cefazolin |
-| **II** | 1-10 cm, moderate damage | Moderate contamination | Cefazolin |
-| **IIIA** | >10 cm, adequate soft tissue | Significant contamination | Cefazolin + aminoglycoside |
-| **IIIB** | >10 cm, inadequate coverage | Requires flap | Cefazolin + aminoglycoside |
-| **IIIC** | **Any size + vascular injury** | **Needs vascular repair** | Cefazolin + aminoglycoside |
+| Gustilo | Wound | Antibiotics |
+|---------|-------|-------------|
+| **I** | <1 cm | Cefazolin |
+| **II** | 1-10 cm | Cefazolin |
+| **IIIA** | >10 cm, covered | + aminoglycoside |
+| **IIIB** | >10 cm, uncovered | + flap |
+| **IIIC** | **Vascular injury** | **+ vascular repair** |
 
-**Fat Embolism Syndrome (24-72h post long bone fracture):**
-- Classic triad: Respiratory distress + confusion + petechial rash (chest/axillae)
-- Treatment: Supportive; early fracture fixation reduces risk
+- **Fat embolism:** 24-72h; dyspnea + confusion + petechiae
 
-- **[KEY STAT:]** IIIC = absent pulses = vascular injury requiring operative repair
+**[KEY STAT: IIIC = vascular injury = highest amputation]**
 
 > **Bottom Line:** Open fracture + absent pulses -- answer is IIIC, needs vascular repair
 
@@ -1401,10 +1402,12 @@ Consider the principle: life before limb. Which intervention addresses the more 
 
 **Gamma instruction: Dark bg, correct answer B highlighted in green accent, brief explanation with evidence**
 
-- **Why B:** FAST+ with hemodynamic instability = immediate laparotomy for life threat
-- **Why not A:** Fasciotomy is limb-saving but patient will die from abdominal hemorrhage first
-- **Why not C:** Antibiotics are important but do not address the immediate survival threat
-- **Why not D:** CT in an unstable patient is never correct
+- **Why B:** FAST+ unstable = life-threatening hemorrhage
+- **Why not A:** Compartment = limb-threat (6h window)
+- **Why not C:** FAST+ = abdominal source identified
+- **Why not D:** Fracture Rx not emergent when unstable
+
+**[KEY STAT: Life before limb — hemorrhage kills in minutes]**
 
 > **Bottom Line:** Life before limb -- FAST+ unstable = laparotomy before fasciotomy
 
@@ -1438,11 +1441,12 @@ The teaching pearl: when multiple injuries compete for attention, address life t
 
 **Gamma instruction: Dark bg, assertion title 28pt bold, 3-4 keyword bullets 20pt, ONE key stat 36pt accent, Bottom Line box**
 
-- **Phase 1 (OR):** Abbreviated surgery -- pack, staple, ligate, shunt; no anastomoses
-- **Phase 2 (ICU):** Warm, correct coagulopathy, correct acidosis (24-72h)
-- **Phase 3 (OR):** Return for definitive repair once physiology normalized
-- **Lethal Triad triggers:** Temp <34C, pH <7.2, INR >1.5
-- **[KEY STAT:]** DCS reduces mortality from 65% to 35% in severely injured patients with lethal triad
+- **Trigger:** ≥2 of lethal triad (temp <35 / pH <7.2 / coagulopathy)
+- **Phase 1 (OR <60 min):** pack, staple, temp closure
+- **Phase 2 (ICU):** rewarm, correct coagulopathy
+- **Phase 3 (24-72h):** definitive repair
+
+**[KEY STAT: Lethal triad present = damage control, not definitive]**
 
 > **Bottom Line:** Temp 34, pH 7.18, INR 2.1 -- answer is damage control, not definitive repair
 
@@ -1474,15 +1478,14 @@ The indications for damage control include the lethal triad (hypothermia below 3
 
 **Gamma instruction: Table dominates 70%, NAT row highlighted red, title = assertion, Bottom Line box**
 
-| Population | Key Modification | Shelf Pearl |
-|-----------|-----------------|------------|
-| **Pediatric** | 20 mL/kg LR boluses; compliant chest = organ injury WITHOUT rib fx | Rib fractures in child = high-force injury, suspect abuse |
-| **Non-accidental trauma (NAT)** | **Subdurals + retinal hemorrhages + metaphyseal corner fx** | **Inconsistent history is the discriminator** |
-| **Geriatric** | Falls #1 mechanism; beta-blockers mask tachycardia; each rib fx = +19% mortality | "Normal" HR may hide significant hemorrhage |
-| **Pregnancy** | Left lateral decubitus >20 wk; 30-35% blood loss before signs | Best treatment for fetus = treat the mother |
-| **Pregnancy specific** | Kleihauer-Betke for fetomaternal hemorrhage; perimortem C-section <5 min if >24 wk | Perimortem C-section helps MATERNAL resuscitation too |
+| Feature | Pediatric | Geriatric | Pregnancy |
+|---------|-----------|-----------|-----------|
+| **#1 mechanism** | MVC | Falls | MVC |
+| **Key pearl** | Rib fx = abuse | Beta-blockers mask tachy | Left lateral >20 wk |
+| **Pathognomonic** | Retinal hemorrhages = NAT | Chronic subdural | KB test |
+| **Resuscitation** | 20 mL/kg boluses | Lower threshold | Treat mother = treat fetus |
 
-- **[KEY STAT:]** Infant with bilateral subdurals + retinal hemorrhages + inconsistent history = NAT
+**[KEY STAT: Pediatric rib fx = high force = suspect abuse]**
 
 > **Bottom Line:** Infant + subdurals + retinal hemorrhages -- answer is NAT, not accidental fall
 
@@ -1537,10 +1540,12 @@ Consider: can an 8-month-old rolling off a couch produce bilateral subdurals? Re
 
 **Gamma instruction: Dark bg, correct answer B highlighted in green accent, brief explanation with evidence**
 
-- **Why B:** Classic NAT triad: bilateral SDH + retinal hemorrhages + metaphyseal corner fx + inconsistent history
-- **Why not A:** Rolling off couch cannot produce bilateral subdurals; coagulopathy does not cause retinal hemorrhages
-- **Why not C:** OI causes fractures but NOT retinal hemorrhages or bilateral subdurals from minor falls
-- **Why not D:** Birth-related subdurals resolve by 3-4 weeks; child is 8 months old
+- **Why C:** Bilateral subdurals + retinal hemorrhages + inconsistent hx
+- **Why not A:** Couch fall cannot cause bilateral subdurals
+- **Why not B:** Glutaric aciduria = subdurals but no retinal hemorrhages
+- **Why not D:** Birth subdurals resolve by 4-6 weeks
+
+**[KEY STAT: Retinal hemorrhages present in >80% of NAT]**
 
 > **Bottom Line:** Inconsistent history + subdurals + retinal hemorrhages = non-accidental trauma
 
@@ -1573,16 +1578,16 @@ The next steps in management include: full skeletal survey (to look for fracture
 
 **Gamma instruction: Large numbered list 28pt, bold key phrase per item, clean dark bg, 10 items for comprehensive review**
 
-1. **xABCDE: Stabilize before scan** -- unstable patient + CT offered = wrong answer
-2. **Shock Class III/IV: Blood, not saline** -- HR >120 + BP down = blood products
-3. **TXA: 3-hour window** -- before 3h = give; after 3h = withhold
-4. **Epidural vs Subdural: CT shape** -- biconvex = epidural; crescent = subdural
-5. **Cord syndromes: Arms > legs** -- elderly + hyperextension = central cord
-6. **Burns: Painless = full thickness** -- Parkland from burn time, not arrival
-7. **Chest: Breath sounds discriminate** -- bilateral BS = tamponade; absent unilateral = PTX
-8. **Abdomen: FAST+ unstable = OR** -- never CT an unstable patient
-9. **Pelvis: FAST determines next step** -- FAST+ = laparotomy; FAST- = angio
-10. **DCS: Lethal triad = abbreviated surgery** -- hypothermia + acidosis + coagulopathy = pack and close
+1. **xABCDE:** unstable + CT = intervention first
+2. **Shock:** SI >1.0 = blood products, not crystalloid
+3. **TBI:** biconvex = epidural; SBP <90 = 2x mortality
+4. **Spine:** arms > legs = central cord; brady = neurogenic
+5. **Burns:** painless = full thickness; Parkland from burn time
+6. **Chest:** 1500/200 = thoracotomy; BS differentiates PTX vs tamponade
+7. **Abdomen:** GSW = OR; FAST+ unstable = OR
+8. **Pelvis:** binder → FAST → decide; meatus = RUG
+9. **Ortho:** passive stretch = fasciotomy; IIIC = vascular
+10. **Special:** rib fx child = abuse; beta-blockers mask hemorrhage
 
 <!-- Speaker Notes:
 These ten discriminators summarize the entire 45-minute review. Each one is a decision rule that, when applied correctly, will answer the vast majority of trauma questions on the shelf. Let me walk through each one as a final review.

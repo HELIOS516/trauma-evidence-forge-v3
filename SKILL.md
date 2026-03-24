@@ -1,5 +1,6 @@
 ---
 name: trauma-evidence-forge-v3
+category: medical
 description: >
   Gamma-optimized medical education presentation system for trauma surgery,
   emergency general surgery (EGS), and surgical critical care. Produces
