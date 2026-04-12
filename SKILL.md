@@ -1,5 +1,5 @@
 ---
-name: trauma-evidence-forge-v3
+name: trauma-evidence-forge
 category: medical
 description: >
   Gamma-optimized medical education presentation system for trauma surgery,
@@ -120,7 +120,7 @@ Uses `gamma-presentation-core` adapter pattern:
 ## File Structure
 
 ```
-trauma-evidence-forge-v3/
+trauma-evidence-forge/
   SKILL.md / CLAUDE.md / verification.md
   agents/          # Subagent definitions
   commands/        # Slash commands
