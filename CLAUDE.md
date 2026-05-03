@@ -96,3 +96,14 @@ python -m pytest evals/ -v
 # Verify citations
 python scripts/verify_citations.py projects/Pending/{topic}/evidence-synthesis.md
 ```
+
+## DO NOT
+
+- Do not commit `.env` files or hardcoded secrets — use 1Password (`helios516-automation` vault) + `op://` references
+- Do not bypass tests or pre-commit hooks (`--no-verify`)
+- Do not push directly to `main` for breaking changes without review
+- Do not commit PHI or identifiable patient case details
+
+---
+
+_Canonical template v1 (2026-05-02). See `~/Documents/GitHub/.CLAUDE_TEMPLATE.md`._
