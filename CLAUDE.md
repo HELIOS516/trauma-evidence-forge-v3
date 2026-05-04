@@ -97,6 +97,29 @@ python -m pytest evals/ -v
 python scripts/verify_citations.py projects/Pending/{topic}/evidence-synthesis.md
 ```
 
+## Second Brain Integration
+
+Evidence wiki pages for rapid topic lookup during presentation authoring:
+
+| Wiki Page | Presentation Domain | Key Evidence |
+|-----------|---------------------|--------------|
+| [BCVI Management](../second-brain/wiki/bcvi-management.md) | Vascular trauma | BIFFL grading, antithrombotic selection, SEH coexistence |
+| [DVT Prophylaxis](../second-brain/wiki/dvt-prophylaxis-trauma.md) | ICU/VTE | 2025 meta-analysis N=87K; early initiation reduces VTE 62% |
+| [Antibiotic Prophylaxis](../second-brain/wiki/antibiotic-prophylaxis-trauma.md) | Perioperative | Universal ≤24h rule; agent selection by site/flora |
+| [Hemorrhage + Resuscitation](../second-brain/wiki/hemorrhage-resuscitation.md) | Trauma resus | xABCDE, DCR, DCS, TXA timing window, 1:1:1 ratio |
+| [Stress Ulcer Prophylaxis](../second-brain/wiki/stress-ulcer-prophylaxis.md) | ICU | REVISE trial: PPI reduces GI bleeding 70%, NNT=40 |
+| [Spinal Cord Injury](../second-brain/wiki/spinal-cord-injury.md) | Neuro-critical | MAP >85 x7 days, early decompression <24h |
+| [PSH Management](../second-brain/wiki/psh-management.md) | Neuro-critical | Meyfroidt 2017 (Lancet Neurol), EIR model, propranolol + clonidine |
+| [Rib Fracture Fixation](../second-brain/wiki/rib-fracture-fixation.md) | Thoracic trauma | VATS vs open ORIF equivalent outcomes, 2025 landmark study |
+| [Pancreaticoduodenal Trauma](../second-brain/wiki/pancreaticoduodenal-trauma.md) | Abdominal trauma | AAST grading, DCS approach, Kocher/Cattell-Braasch anatomy |
+
+Pressure-test a slide claim against vault evidence:
+```bash
+/vault-challenge "claim to test"
+```
+
+Full wiki index: `../second-brain/wiki/index.md`
+
 ## DO NOT
 
 - Do not commit `.env` files or hardcoded secrets — use 1Password (`helios516-automation` vault) + `op://` references
