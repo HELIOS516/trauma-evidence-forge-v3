@@ -127,6 +127,10 @@ Full wiki index: `../second-brain/wiki/index.md`
 - Do not push directly to `main` for breaking changes without review
 - Do not commit PHI or identifiable patient case details
 
+## Related repos
+
+Part of the HELIOS516 second-brain ecosystem (`~/Documents/GITHUB_HELIOS516/own/second-brain/`). Generated EDOPs / Gamma slides live here; `automation/private_vault_pipeline/` (non-clinical content) is a sibling pipeline. Same egress filter (`automation/lib/egress_filter.py`) governs both.
+
 ---
 
 _Canonical template v1 (2026-05-02). See `~/Documents/GitHub/.CLAUDE_TEMPLATE.md`._
